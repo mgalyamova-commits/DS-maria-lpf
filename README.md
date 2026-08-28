@@ -12,7 +12,9 @@
 ## Дневник и система
 
 - Дневник — полный: https://docs.google.com/document/d/12fbyaF7DKJoaTclh9CYsvFm7R3XKloCA8XF4Ia12hlo/edit?usp=sharing
+- Локальная копия (телеметрия, извлечённая из дневника): [telemetry/history.md](telemetry/history.md)
 - Портянка — общий стек: https://docs.google.com/document/d/1XIYibQrkKr6JaPnPV4WIVIU0So9_6CJjE66ALgkN8MQ/edit?usp=sharing
+- Локальная копия в этом репозитории: [docs/portyanka-obshiy-stek.md](docs/portyanka-obshiy-stek.md)
 - Журнал изменений: https://docs.google.com/document/d/1P5ptocDn25WRFzxRwICazdkscM3_AeFxVmzuLlbqENw/edit?usp=sharing
 - Недельные сводки: https://docs.google.com/document/d/1h1b43BbLAIWWT9ykQqVYpTcFa3ZRzM9mCXv_TbNSzqE/edit?usp=sharing
 
@@ -55,14 +57,6 @@
 - При запуске: прочитай README, затем сводную заметку своего трека (см. раздел «Обучение (сводные)» выше).
 - Сюда идут: учебный материал, конспекты, вопросы по теме.
 - Сюда НЕ идут: рабочие задачи → в проектные чаты.
-
-### IWE совершенствование (мета-ветка, добавлена 28.08.2026)
-- Лог: [iwe-development/log.md](iwe-development/log.md)
-- При запуске: прочитай README, затем `docs/lpf-reglament-v2.5.md` (для словаря FPF-понятий — Entity of Concern, рабочая запись и т.д.), затем весь лог целиком (пока небольшой).
-- Формат записи в лог — «рабочая запись» по FPF (Entity of Concern / Bounded Context / Текущее утверждение / Intended Use / Основание), не свободный текст — цель сохранить путь рассуждения так, чтобы следующий агент мог продолжить без устного восстановления.
-- Сюда идут: архитектурные решения по самой IWE-системе — структура репо, разделение слоёв документации, правила для агентов, ревизии автоматизации. Мета-уровень про инструмент.
-- Сюда НЕ идут: телеметрия, эмоции Марии (→ Дневник), статусы проектов (→ проектные чаты), содержание LPF-регламента как таковое (правки туда идут через DRR, раздел 16 регламента).
-- Статус: временно ведётся в чате «Дневник» вручную; отдельный агент для этой ветки — планируется, пока не создан.
 
 ## FPF
 
