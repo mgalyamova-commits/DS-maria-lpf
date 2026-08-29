@@ -8,6 +8,7 @@
 2. Найди свою ветку в разделе «Инструкции для веток» ниже.
 3. Прочитай промпт/регламент своей ветки — это твой формат, тон и алгоритм общения.
 4. Часовой пояс: Новосибирск (UTC+7).
+5. **Если твоя работа предполагает создание, изменение или удаление файлов репозитория** (не только чтение памяти) — обязательно прочитай [automation/agent-workflow-rules.md](automation/agent-workflow-rules.md) перед первой такой операцией в сессии. Это отдельный от LPF-регламента слой: технические правила работы с инструментами и файлами репо, не про психологию пользователя.
 
 ## Дневник и система
 
@@ -22,6 +23,7 @@
 
 - Отношения — журнал: https://docs.google.com/document/d/1ogoywxPUFNscCEKruDP8Frjxfm2uylyqiBG_PIXbSk8/edit?usp=sharing
 - Отношения — правила: https://docs.google.com/document/d/162aGilVGIerCuCGZ-lQDeIEtaiCfh2UzM-bbg2fu2W0/edit?usp=sharing
+- Локальная копия в этом репозитории: [docs/otnosheniya-pravila.md](docs/otnosheniya-pravila.md)
 
 ## Обучение (сводные)
 
@@ -32,13 +34,18 @@
 
 ## Регламент
 
-- LPF-регламент v2.5: https://docs.google.com/document/d/1o4T4FCQfg0WEY1x2CPUPWRAjy6h17K2Qj_GQPIhIYn4/edit?usp=sharing
-- Локальная копия в этом репозитории: [docs/lpf-reglament-v2.5.md](docs/lpf-reglament-v2.5.md)
+- LPF-регламент v2.6: https://docs.google.com/document/d/1o4T4FCQfg0WEY1x2CPUPWRAjy6h17K2Qj_GQPIhIYn4/edit?usp=sharing
+- Локальная копия в этом репозитории: [docs/lpf-reglament-v2.5.md](docs/lpf-reglament-v2.5.md) (путь файла не менялся с версии 2.5, содержимое внутри обновлено до v2.6)
+
+## Технический слой (для агентов, работающих с файлами репо)
+
+- [automation/agent-workflow-rules.md](automation/agent-workflow-rules.md) — операционные правила работы с файлами и инструментами репозитория. Отдельно от LPF-регламента (тот — про психологию Марии) и от промптов веток (те — про тон и формат общения). Читать перед любой записью/удалением файла.
+- [automation/repo-map.md](automation/repo-map.md) — манифест структуры репозитория («что где лежит»), без правил поведения.
 
 ## Инструкции для веток
 
 ### Хаб (основной чат)
-- LPF-регламент v2.5: https://docs.google.com/document/d/1o4T4FCQfg0WEY1x2CPUPWRAjy6h17K2Qj_GQPIhIYn4/edit?usp=drive_link
+- LPF-регламент v2.6: https://docs.google.com/document/d/1o4T4FCQfg0WEY1x2CPUPWRAjy6h17K2Qj_GQPIhIYn4/edit?usp=drive_link
 - При запуске: прочитай README, затем LPF-регламент.
 - Твои задачи: телеметрия, рабочий график, портянка, чекины, команды агенту.
 
