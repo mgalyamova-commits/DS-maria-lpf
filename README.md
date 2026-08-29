@@ -26,6 +26,10 @@
 - Отношения — правила: https://docs.google.com/document/d/162aGilVGIerCuCGZ-lQDeIEtaiCfh2UzM-bbg2fu2W0/edit?usp=sharing
 - Локальная копия в этом репозитории: [docs/otnosheniya-pravila.md](docs/otnosheniya-pravila.md)
 
+## О Марии — личные факты и окружение
+
+- [docs/o-marii-fakty-lyudi.md](docs/o-marii-fakty-lyudi.md) — справочник фактов о Марии, её семье и людях в её жизни (кто есть кто, какая роль). Отдельно от `otnosheniya-pravila.md` (там — как общаться с человеком, здесь — сам факт кто это). Создан 28.08.2026, статус: скелет структуры, заполнение — задача в портянке (раздел «Обучение / Личное»).
+
 ## Обучение (сводные)
 
 - FPF: https://docs.google.com/document/d/1R0eRwKaD_OdD8tEA8A_iyUIs61hd_VmBkD7g72uMnqg/edit?usp=sharing
