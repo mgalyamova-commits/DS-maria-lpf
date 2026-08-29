@@ -18,8 +18,7 @@
 - [telemetry/trends-analysis-2026-08.md](telemetry/trends-analysis-2026-08.md) — выводы из разбора истории телеметрии, повторяющиеся паттерны.
 - [docs/moto-dnevnik.md](docs/moto-dnevnik.md) — отдельный трек-дневник по мототренировкам (взятые/не взятые препятствия, падения, страх, физическая динамика по датам). Создан 29.08.2026, выделен из общего дневника-жилетки, чтобы отслеживать трек по фактам, а не по памяти в моменте.
 - [docs/neudovletvorennosti.md](docs/neudovletvorennosti.md) — растущий список неудовлетворённостей (НЭП), источник для режима «Стратег» в Дневнике. Отдельно от портянки: портянка — задачи, этот файл — направления и недовольства. Создан 29.08.2026.
-- Портянка — общий стек: https://docs.google.com/document/d/1XIYibQrkKr6JaPnPV4WIVIU0So9_6CJjE66ALgkN8MQ/edit?usp=sharing
-- Локальная копия в этом репозитории: [docs/portyanka-obshiy-stek.md](docs/portyanka-obshiy-stek.md)
+- [docs/portyanka-obshiy-stek.md](docs/portyanka-obshiy-stek.md) — общий стек задач по всем проектам, **источник истины** (миграция из Google Docs завершена, подтверждено Марией 29.08.2026).
 - Журнал изменений: https://docs.google.com/document/d/1P5ptocDn25WRFzxRwICazdkscM3_AeFxVmzuLlbqENw/edit?usp=sharing
 - Недельные сводки: [docs/nedelnye-svodki.md](docs/nedelnye-svodki.md) — источник истины с 28.08.2026 (перенесено из Google Docs, тот же принцип, что и с портянкой и правилами отношений). Архив до этой даты (недели 10–16.08 и 15–21.08) остаётся в Google Docs: https://docs.google.com/document/d/1h1b43BbLAIWWT9ykQqVYpTcFa3ZRzM9mCXv_TbNSzqE/edit?usp=sharing
 
@@ -76,7 +75,7 @@
 6. [System Constraints и F.9 Bridge](docs/reglament/06-constraints-bridge.md) — разделы 9–10
 7. [Пропуски и дыры, недельная сводка](docs/reglament/07-propuski-svodka.md) — разделы 11–12
 8. [Передача данных на анализ, инструменты](docs/reglament/08-instrumenty.md) — разделы 13–14
-9. [Правила несмешивания, DRR, трекеры, память](docs/reglament/09-pravila-drr.md) — разделы 15–18 («Правила несмешивания»)
+9. [Правила несмешивания, DRR, трекеры, память](docs/reglament/09-pravila-drr.md) — разделы 15–18
 
 ## Промпты веток
 
@@ -95,7 +94,7 @@
 ### Хаб (основной чат)
 - LPF-регламент v2.6: [docs/reglament/00-index.md](docs/reglament/00-index.md)
 - При запуске: прочитай README, затем LPF-регламент целиком по частям (включая часть 1 — «Временная привязка», обязательная процедура на каждый ответ, не только при старте сессии).
-- Твои задачи: телеметрия, рабочий график, портянка, чекины, команды агенту, недельная сводка ([docs/nedelnye-svodki.md](docs/nedelnye-svodki.md), формат — часть 7 регламента).
+- Твои задачи: телеметрия, рабочий график, портянка ([docs/portyanka-obshiy-stek.md](docs/portyanka-obshiy-stek.md), источник истины), чекины, команды агенту, недельная сводка ([docs/nedelnye-svodki.md](docs/nedelnye-svodki.md), формат — часть 7 регламента).
 
 ### Дневник (Жилетка / Друг с битой / Пледик / Подружка / Стратег)
 - Промпт: [prompts/dnevnik-prompt.md](prompts/dnevnik-prompt.md)
