@@ -19,7 +19,7 @@
 - Портянка — общий стек: https://docs.google.com/document/d/1XIYibQrkKr6JaPnPV4WIVIU0So9_6CJjE66ALgkN8MQ/edit?usp=sharing
 - Локальная копия в этом репозитории: [docs/portyanka-obshiy-stek.md](docs/portyanka-obshiy-stek.md)
 - Журнал изменений: https://docs.google.com/document/d/1P5ptocDn25WRFzxRwICazdkscM3_AeFxVmzuLlbqENw/edit?usp=sharing
-- Недельные сводки: https://docs.google.com/document/d/1h1b43BbLAIWWT9ykQqVYpTcFa3ZRzM9mCXv_TbNSzqE/edit?usp=sharing
+- Недельные сводки: [docs/nedelnye-svodki.md](docs/nedelnye-svodki.md) — источник истины с 28.08.2026 (перенесено из Google Docs, тот же принцип, что и с портянкой и правилами отношений). Архив до этой даты (недели 10–16.08 и 15–21.08) остаётся в Google Docs: https://docs.google.com/document/d/1h1b43BbLAIWWT9ykQqVYpTcFa3ZRzM9mCXv_TbNSzqE/edit?usp=sharing
 
 ## Отношения
 
@@ -59,7 +59,7 @@
 ### Хаб (основной чат)
 - LPF-регламент v2.6: [docs/lpf-reglament-v2.5.md](docs/lpf-reglament-v2.5.md)
 - При запуске: прочитай README, затем LPF-регламент целиком (включая раздел 1 — «Временная привязка», обязательная процедура на каждый ответ, не только при старте сессии).
-- Твои задачи: телеметрия, рабочий график, портянка, чекины, команды агенту.
+- Твои задачи: телеметрия, рабочий график, портянка, чекины, команды агенту, недельная сводка ([docs/nedelnye-svodki.md](docs/nedelnye-svodki.md), формат — раздел 12 регламента).
 
 ### Дневник (Жилетка / Друг с битой / Пледик / Подружка)
 - Промпт: [prompts/dnevnik-prompt.md](prompts/dnevnik-prompt.md)
