@@ -47,7 +47,7 @@
 - [openbio/context.md](openbio/context.md) — OpenBio
 - [zhivye-sistemy/context.md](zhivye-sistemy/context.md) — Живые системы
 - [fondobrazovanie/context.md](fondobrazovanie/context.md) — ФондОбразование (ранее «ЗдороваяШкола (ФО)»)
-- [pish/context.md](pish/context.md) — ПИШ (создан 31.08.2026, первая сессия — скелет, дозаполняется)
+- [pish/context.md](pish/context.md) — ПИШ (создан 31.08.2026, первая сессия — скелет, дозаполняется). Планёрки — отдельно, см. [pish/planerki.md](pish/planerki.md) (регулярные, по понедельникам, append-only, создан 31.08.2026).
 - `startup-studio/` — ЦПИ+УСС (стартап-студия НГУ), включает подзадачи «Металлист» (в холде) и «Корпсекретарь»:
   - [startup-studio/2026-08-26-svya-meropriyatiya.md](startup-studio/2026-08-26-svya-meropriyatiya.md) — сводка по мероприятиям СВЯ 26.08
   - [startup-studio/2026-08-27-krstol-malina-investlogika.md](startup-studio/2026-08-27-krstol-malina-investlogika.md) — тезисы круглого стола «Малина» по инвестлогике
