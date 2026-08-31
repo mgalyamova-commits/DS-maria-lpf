@@ -49,6 +49,7 @@
 - `startup-studio/` — ЦПИ+УСС (стартап-студия НГУ), включает подзадачи «Металлист» (в холде) и «Корпсекретарь»:
   - [startup-studio/2026-08-26-svya-meropriyatiya.md](startup-studio/2026-08-26-svya-meropriyatiya.md) — сводка по мероприятиям СВЯ 26.08
   - [startup-studio/2026-08-27-krstol-malina-investlogika.md](startup-studio/2026-08-27-krstol-malina-investlogika.md) — тезисы круглого стола «Малина» по инвестлогике
+  - [startup-studio/2026-08-30-opisanie-fonda-raspozharizaciya.md](startup-studio/2026-08-30-opisanie-fonda-raspozharizaciya.md) — описание венчурного фонда как системы (проектная выжимка из задания R1.1:Tasks1 трека «Распожаризация», полная версия — в `raspozharizaciya/`)
 - [docs/tehnoprom-2026-materialy.md](docs/tehnoprom-2026-materialy.md) — материалы конференции Технопром-2026 (разбор проектов-кандидатов для стартап-студии), сессии 26–28.08.2026
 
 Актуальная карта структуры репозитория (более подробная, чем этот README для проектного слоя) — [automation/repo-map.md](automation/repo-map.md).
@@ -57,7 +58,7 @@
 
 - FPF: https://docs.google.com/document/d/1R0eRwKaD_OdD8tEA8A_iyUIs61hd_VmBkD7g72uMnqg/edit?usp=sharing
 - Управление наукой: https://docs.google.com/document/d/1vLG08OByB-xItNeSFWigNdSeFCRLTqpbN2PCK2kBDvA/edit?usp=sharing
-- Распожаризация: https://docs.google.com/document/d/1Pt2jb2IK24_5ha-b8GPvtS7vSeBNV5vmKjVo9ynIwAI/edit?usp=sharing
+- Распожаризация: https://docs.google.com/document/d/1Pt2jb2IK24_5ha-b8GPvtS7vSeBNV5vmKjVo9ynIwAI/edit?usp=sharing — **с 30.08.2026 задания трека дополнительно ведутся локально в репозитории**, см. [raspozharizaciya/](raspozharizaciya/) (`r1-1-tasks1-opisanie-sistemy.md`, `r1-1-tasks3-utochnenie-ekspluatatsii.md`). Google Doc остаётся сводной заметкой, локальные файлы — рабочие черновики по ходу прохождения курса.
 - IWE / Экзокортекс: https://docs.google.com/document/d/1GxLtviWkBs1-Vqz4aUQkx5vIy91Hsej5nuShSqGsnA4/edit?usp=sharing
 
 ## Регламент (обновлено 29.08.2026 — разбит на файлы)
@@ -129,6 +130,7 @@
 
 ### Треки обучения (FPF, Управление наукой, Распожаризация, IWE/Экзокортекс)
 - При запуске: прочитай README, затем сводную заметку своего трека (см. раздел «Обучение (сводные)» выше).
+- **Распожаризация (с 30.08.2026):** локальные рабочие файлы по заданиям курса — в [raspozharizaciya/](raspozharizaciya/), по одному файлу на задание (`r1-1-tasks1-opisanie-sistemy.md`, `r1-1-tasks3-utochnenie-ekspluatatsii.md`). Сквозной пример курса — венчурный фонд deeptech-инвестиций (реальный проект Марии, он же ЦПИ/стартап-студия), поэтому релевантные разборы также дублируются проектной выжимкой в `startup-studio/` — см. раздел «Проекты — рабочий контекст».
 - Сюда идут: учебный материал, конспекты, вопросы по теме.
 - Сюда НЕ идут: рабочие задачи → в проектные чаты.
 
