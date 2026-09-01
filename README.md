@@ -60,7 +60,7 @@
 
 - FPF: https://docs.google.com/document/d/1R0eRwKaD_OdD8tEA8A_iyUIs61hd_VmBkD7g72uMnqg/edit?usp=sharing
 - Управление наукой: https://docs.google.com/document/d/1vLG08OByB-xItNeSFWigNdSeFCRLTqpbN2PCK2kBDvA/edit?usp=sharing
-- Распожаризация: https://docs.google.com/document/d/1Pt2jb2IK24_5ha-b8GPvtS7vSeBNV5vmKjVo9ynIwAI/edit?usp=sharing — **с 30.08.2026 задания трека дополнительно ведутся локально в репозитории**, см. [raspozharizaciya/](raspozharizaciya/) (`r1-1-tasks1-opisanie-sistemy.md`, `r1-1-tasks3-utochnenie-ekspluatatsii.md`). Google Doc остаётся сводной заметкой, локальные файлы — рабочие черновики по ходу прохождения курса. Ход рассуждений по сессиям (не только чистовые ответы) — отдельно в [raspozharizaciya/log.md](raspozharizaciya/log.md), создан 31.08.2026, чтобы не терять контекст «почему пришли к такой формулировке» при возврате к треку.
+- Распожаризация: https://docs.google.com/document/d/1Pt2jb2IK24_5ha-b8GPvtS7vSeBNV5vmKjVo9ynIwAI/edit?usp=sharing — **с 30.08.2026 задания трека дополнительно ведутся локально в репозитории**, см. [raspozharizaciya/](raspozharizaciya/) (`r1-1-tasks1-opisanie-sistemy.md`, `r1-1-tasks3-utochnenie-ekspluatatsii.md`, `r1-1-tasks3-razbor-oshibok.md`). Google Doc остаётся сводной заметкой, локальные файлы — рабочие черновики по ходу прохождения курса. Ход рассуждений по сессиям (не только чистовые ответы) — отдельно в [raspozharizaciya/log.md](raspozharizaciya/log.md), создан 31.08.2026, чтобы не терять контекст «почему пришли к такой формулировке» при возврате к треку.
 - IWE / Экзокортекс: https://docs.google.com/document/d/1GxLtviWkBs1-Vqz4aUQkx5vIy91Hsей5nuShSqGsnA4/edit?usp=sharing
 
 ## Регламент (обновлено 29.08.2026 — разбит на файлы)
@@ -133,7 +133,7 @@
 ### Треки обучения (FPF, Управление наукой, Распожаризация, IWE/Экзокортекс)
 - При запуске: прочитай README, затем сводную заметку своего трека (см. раздел «Обучение (сводные)» выше).
 - **Gate (см. пункт 8 выше):** треки обучения не читают LPF-регламент целиком, но Gate на них распространяется — черновик аналитики/выводов в чат, запись только после «да»/«принято».
-- **Распожаризация (с 30.08.2026):** локальные рабочие файлы по заданиям курса — в [raspozharizaciya/](raspozharizaciya/), по одному файлу на задание (`r1-1-tasks1-opisanie-sistemy.md`, `r1-1-tasks3-utochnenie-ekspluatatsii.md`), плюс журнал хода рассуждений [raspozharizaciya/log.md](raspozharizaciya/log.md) (одна запись на сессию, отдельно от чистовых ответов). Сквозной пример курса — венчурный фонд deeptech-инвестиций (реальный проект Марии, он же ЦПИ/стартап-студия), поэтому релевантные разборы также дублируются проектной выжимкой в `startup-studio/` — см. раздел «Проекты — рабочий контекст».
+- **Распожаризация (с 30.08.2026):** локальные рабочие файлы по заданиям курса — в [raspozharizaciya/](raspozharizaciya/), по одному файлу на задание (`r1-1-tasks1-opisanie-sistemy.md`, `r1-1-tasks3-utochnenie-ekspluatatsii.md`), плюс разбор ошибок к заданию (`r1-1-tasks3-razbor-oshibok.md`, создан 01.09.2026) и журнал хода рассуждений [raspozharizaciya/log.md](raspozharizaciya/log.md) (одна запись на сессию, отдельно от чистовых ответов). Сквозной пример курса — венчурный фонд deeptech-инвестиций (реальный проект Марии, он же ЦПИ/стартап-студия), поэтому релевантные разборы также дублируются проектной выжимкой в `startup-studio/` — см. раздел «Проекты — рабочий контекст».
 - Сюда идут: учебный материал, конспекты, вопросы по теме.
 - Сюда НЕ идут: рабочие задачи → в проектные чаты.
 
