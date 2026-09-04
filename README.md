@@ -43,6 +43,7 @@
 - [helsko/context.md](helsko/context.md) — Хелско, 2-я партия устройств (выделен из Хелснета)
 - [motoferma/context.md](motoferma/context.md) — Мотоферма (Кольцово)
 - [himozin/context.md](himozin/context.md) — Химозин
+  - [himozin/sopostavlenie-tehnologiy-aspergillus-vs-syrolet.md](himozin/sopostavlenie-tehnologiy-aspergillus-vs-syrolet.md) — сопоставление стандартной промышленной технологии производства рекомбинантного химозина (Aspergillus niger var. awamori, Chr. Hansen) с технологией «Сыролёта» (K. lactis/pPOG-P.kuhlii-5), создан 04.09.2026 по запросу Марии
 - [gpb-mbs/context.md](gpb-mbs/context.md) — ГПБ/МБС
 - [tandem/context.md](tandem/context.md) — Тандем (ООО «Тандем Робототехника», Tandem AMR). Детальная справка от 04.09.2026 по исходникам с Яндекс.Диска (ТЗ, термшит, сметы, инвесткейс, патентный поиск). Текстовые копии ключевых документов (оригиналы — pdf/docx/xlsx/pptx, инструмент записи их не поддерживает) в той же папке:
   - [tandem/tz-opytny-obrazec-tandem-amr.md](tandem/tz-opytny-obrazec-tandem-amr.md) — полный текст ТЗ на опытный образец
