@@ -44,7 +44,10 @@
 - [motoferma/context.md](motoferma/context.md) — Мотоферма (Кольцово)
 - [himozin/context.md](himozin/context.md) — Химозин
 - [gpb-mbs/context.md](gpb-mbs/context.md) — ГПБ/МБС
-- [tandem/context.md](tandem/context.md) — Тандем
+- [tandem/context.md](tandem/context.md) — Тандем (ООО «Тандем Робототехника», Tandem AMR). Детальная справка от 04.09.2026 по исходникам с Яндекс.Диска (ТЗ, термшит, сметы, инвесткейс, патентный поиск). Текстовые копии ключевых документов (оригиналы — pdf/docx/xlsx/pptx, инструмент записи их не поддерживает) в той же папке:
+  - [tandem/tz-opytny-obrazec-tandem-amr.md](tandem/tz-opytny-obrazec-tandem-amr.md) — полный текст ТЗ на опытный образец
+  - [tandem/termshit-tandem-proekt.md](tandem/termshit-tandem-proekt.md) — полный текст термшита (Основные условия участия)
+  - [tandem/patentny-poisk-obzor.md](tandem/patentny-poisk-obzor.md) — полный текст обзора патентного поиска
 - [openbio/context.md](openbio/context.md) — OpenBio
 - [zhivye-sistemy/context.md](zhivye-sistemy/context.md) — Живые системы
 - [fondobrazovanie/context.md](fondobrazovanie/context.md) — ФондОбразование (ранее «ЗдороваяШкола (ФО)»)
