@@ -62,6 +62,7 @@
   - [startup-studio/2026-08-26-svya-meropriyatiya.md](startup-studio/2026-08-26-svya-meropriyatiya.md) — сводка по мероприятиям СВЯ 26.08
   - [startup-studio/2026-08-27-krstol-malina-investlogika.md](startup-studio/2026-08-27-krstol-malina-investlogika.md) — тезисы круглого стола «Малина» по инвестлогике
   - [startup-studio/2026-08-30-opisanie-fonda-raspozharizaciya.md](startup-studio/2026-08-30-opisanie-fonda-raspozharizaciya.md) — описание венчурного фонда как системы (проектная выжимка из задания R1.1:Tasks1 трека «Распожаризация», полная версия — в `raspozharizaciya/`)
+  - [startup-studio/2026-09-06-perekis-spravka-sd.md](startup-studio/2026-09-06-perekis-spravka-sd.md) — справка для СД по проекту «Локальный электрохимический синтез H₂O₂» (НГУ/ИК СО РАН), по образцу шаблона «6 осей» из проекта Химозин, создана 06.09.2026
 - [katalist/context.md](katalist/context.md) — «Каталист» (студенческий акселератор/экосистема в рамках ЦПИ+УСС), выделен в отдельную папку 03.09.2026 (запрошено Марией — отдельное хранилище артефактов и анализа, отдельно от `startup-studio/`). Тематические материалы в той же папке:
   - [katalist/2026-09-01-postmortem-picnik.md](katalist/2026-09-01-postmortem-picnik.md) — постмортем мероприятия 1 сентября (что было хорошо/плохо/улучшить), составлен по расшифровке планёрки 02.09.2026
 - [docs/tehnoprom-2026-materialy.md](docs/tehnoprom-2026-materialy.md) — материалы конференции Технопром-2026 (разбор проектов-кандидатов для стартап-студии), сессии 26–28.08.2026
