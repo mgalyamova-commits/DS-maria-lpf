@@ -53,6 +53,7 @@
   - [tandem/tz-opytny-obrazec-tandem-amr.md](tandem/tz-opytny-obrazec-tandem-amr.md) — полный текст ТЗ на опытный образец
   - [tandem/termshit-tandem-proekt.md](tandem/termshit-tandem-proekt.md) — полный текст термшита (Основные условия участия)
   - [tandem/patentny-poisk-obzor.md](tandem/patentny-poisk-obzor.md) — полный текст обзора патентного поиска
+  - [tandem/pokupateli-doli.md](tandem/pokupateli-doli.md) — сводная справка по предполагаемым покупателям доли ЦПИ-УСС при выходе, создана 06.09.2026 (синтез из `tandem/rynok-nishi-sravnenie.md`)
 - [openbio/context.md](openbio/context.md) — OpenBio
 - [zhivye-sistemy/context.md](zhivye-sistemy/context.md) — Живые системы
 - [fondobrazovanie/context.md](fondobrazovanie/context.md) — ФондОбразование (ранее «ЗдороваяШкола (ФО)»)
