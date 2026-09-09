@@ -54,6 +54,7 @@
   - [tandem/termshit-tandem-proekt.md](tandem/termshit-tandem-proekt.md) — полный текст термшита (Основные условия участия)
   - [tandem/patentny-poisk-obzor.md](tandem/patentny-poisk-obzor.md) — полный текст обзора патентного поиска
   - [tandem/pokupateli-doli.md](tandem/pokupateli-doli.md) — сводная справка по предполагаемым покупателям доли ЦПИ-УСС при выходе, создана 06.09.2026 (синтез из `tandem/rynok-nishi-sravnenie.md`)
+  - [tandem/termshit-final-2026-09-08.md](tandem/termshit-final-2026-09-08.md) — финализированный термшит (суммы/доли зафиксированы, УК 20 408,16 ₽, доли 49/26/25%, КПЭ с опционным триггером), загружен Марией 09.09.2026, заменяет черновичную версию с плейсхолдерами «xxx» из `termshit-tandem-proekt.md` выше
 - [openbio/context.md](openbio/context.md) — OpenBio
 - [zhivye-sistemy/context.md](zhivye-sistemy/context.md) — Живые системы
 - [fondobrazovanie/context.md](fondobrazovanie/context.md) — ФондОбразование (ранее «ЗдороваяШкола (ФО)»)
