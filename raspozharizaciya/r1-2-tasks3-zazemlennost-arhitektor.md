@@ -54,4 +54,4 @@
 
 ---
 
-*Опора: раздел R1.2 — «Схема заземления», «Психологическая проблема» (R1.2:3), паттерны FPF A.6 (Semantic Precision) и E.12 (HF-Loop, не проверены точным текстом — база знаний была недоступна в момент разбора, применены по памяти). Связано с `r1-2-tasks1-zazemlennost-zadachi.md` и `r1-1-tasks5-ocenka-epistemy.md` (Description/Spec).*
+*Опора: раздел R1.2 — «Схема заземления», «Психологическая проблема» (R1.2:3). Паттерн Kind Elision / Relational Precision Restoration (A.6.P, «Raising Semantic Precision») — подтверждён по актуальной FPF-Spec 12.09.2026. Ссылка на E.12 (HF-Loop) ошибочна — на 12.09.2026 под E.12 в FPF значится другой паттерн («Didactic Primacy & Cognitive Ergonomics»), паттерна с названием HF-Loop в текущей спецификации не найдено. Связано с `r1-2-tasks1-zazemlennost-zadachi.md` и `r1-1-tasks5-ocenka-epistemy.md` (Description/Spec).*
