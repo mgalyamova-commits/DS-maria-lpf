@@ -57,7 +57,7 @@
 - [pish/context.md](pish/context.md) — ПИШ
 - [startup-studio/context.md](startup-studio/context.md) — ЦПИ+УСС (стартап-студия НГУ), включает подзадачи «Металлист» (в холде) и «Корпсекретарь»
 - [katalist/context.md](katalist/context.md) — «Каталист» (студенческий акселератор в рамках ЦПИ+УСС), выделен из `startup-studio/` 03.09.2026
-- [inzhenernoe-obrazovanie/context.md](inzhenernoe-obrazovanie/context.md) — Инженерное образование (создан 13.09.2026, скелет)
+- [inzhenernoe-obrazovanie/context.md](inzhenernoe-obrazovanie/context.md) — Инженерное образование (теория, образовательный эксперимент, литературный артефакт)
 - [docs/tehnoprom-2026-materialy.md](docs/tehnoprom-2026-materialy.md) — материалы конференции Технопром-2026 (разбор проектов-кандидатов для стартап-студии)
 
 Актуальная карта структуры репозитория (построчный каталог для проектного слоя) — [automation/repo-map.md](automation/repo-map.md).
