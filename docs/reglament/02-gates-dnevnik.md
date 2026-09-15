@@ -1,6 +1,6 @@
 # 3–4. Trust & Gates, дневник самонаблюдения
 
-> Часть 2 из 9 разбитого LPF-регламента v2.6. [Оглавление](00-index.md) · [← Предыдущая](01-arhitektura-cikl.md) · [Следующая →](03-portyanka-grafik.md)
+> Часть 2 из 9 разбитого LPF-регламента v2.10. [Оглавление](00-index.md) · [← Предыдущая](01-arhitektura-cikl.md) · [Следующая →](03-portyanka-grafik.md)
 
 ---
 
