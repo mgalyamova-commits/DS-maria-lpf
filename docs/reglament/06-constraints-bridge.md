@@ -1,6 +1,6 @@
 # 9–10. System Constraints и F.9 Bridge
 
-> Часть 6 из 9 разбитого LPF-регламента v2.6. [Оглавление](00-index.md) · [← Предыдущая](05-situacii.md) · [Следующая →](07-propuski-svodka.md)
+> Часть 6 из 9 разбитого LPF-регламента v2.10. [Оглавление](00-index.md) · [← Предыдущая](05-situacii.md) · [Следующая →](07-propuski-svodka.md)
 
 ---
 
