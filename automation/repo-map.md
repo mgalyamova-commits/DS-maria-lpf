@@ -20,7 +20,7 @@
 2. **Сигнал «пора худеть»** — только для **живых файлов**, которые правятся часто (context-файлы проектов, портянка, README, дневник, трекер Коуча, служебные: `drr-candidates`, `agent-workflow-rules`, `iwe-development/log`, `nedelnye-svodki`, `otnosheniya-pravila`). Каждая правка перепечатывает файл целиком (у `personal_write` нет режима «дописать») — чем толще живой файл, тем дороже каждая правка и выше риск испортить текст при перезаписи.
    - **≥ 50 КБ — жёлтый:** одна строка в недельной сводке: «файл X — N КБ, пора худеть». Решение — за Марией, не худеть молча.
    - **≥ 70 КБ — красный:** то же, но с пометкой «риск усечения при чтении» (правило 4 в `agent-workflow-rules.md`) и предложением, как именно худеть (вынести дубли в отдельные файлы / архив закрытого / разбить по периоду).
-   - **Статичные материалы** (транскрипты, отчёты, выгрузки) — не сигналят: их пишут один раз, большой размер для них — только риск при чтении, не цена правки.
+   - **Статичные материалы** (транскрипты, отчёты, выгрузки, архивы) — не сигналят: их пишут один раз, большой размер для них — только риск при чтении, не цена правки.
 
 Сигнал — это только флажок в сводке. Сама разгрузка — отдельным решением, по Gate.
 
@@ -122,17 +122,19 @@
 
 ## Автоматизация (`automation/`)
 
-- `agent-workflow-rules.md` — техника работы с файлами, процедуры целостности/бэкапа/восстановления.
-- `session-close-routing.md` — ритуал закрытия сессии (шесть блоков, триггерные фразы).
+- `agent-workflow-rules.md` — **действующие** правила работы с файлами (1–14), коротко: формулировка + «почему». Читает каждый агент перед первой записью. Разбит 27.09.2026.
+- `workflow-incidents.md` — история инцидентов и обоснований тех же правил (та же нумерация). Архивный, на старте не читается; новый инцидент — новой секцией внизу.
+- `procedures.md` — проверка целостности, полный бэкап, восстановление, инструкция Марии при обрыве связи. Открывается по поводу, не на каждой сессии.
+- `session-close-routing.md` — ритуал закрытия сессии (семь блоков, триггерные фразы).
 - `role-trials.md` — пилоты ролей и вердикты.
 - `reminders-routine.md` — источник истины для Telegram-напоминаний (@aist_me_bot).
 - `repo-map.md` — этот файл.
 
 ## Большие файлы — снимок на 27.09.2026 (после разгрузки)
 
-Живые (часто правятся — цена правки): `docs/drr-candidates.md` (~62 КБ), `automation/agent-workflow-rules.md` (51), `iwe-development/log.md` (~55), `docs/portyanka-obshiy-stek.md` (46, похудела 24.09 — не трогать до сигнала), `telemetry/coach-progress-2026-09.md` (45), `himozin/context.md` (91, правится редко). Разгружены 27.09.2026: `pish/context.md` (94 → ~27), `README.md` (74 → ~20), эта карта (50 → ~13), дневник (понедельная нарезка).
+Живые (часто правятся — цена правки): `docs/drr-candidates.md` (~62 КБ), `iwe-development/log.md` (~60), `docs/portyanka-obshiy-stek.md` (46, похудела 24.09 — не трогать до сигнала), `telemetry/coach-progress-2026-09.md` (45), `himozin/context.md` (91, правится редко). Разгружены 27.09.2026: `pish/context.md` (94 → ~27), `README.md` (74 → ~20), эта карта (50 → ~13), `automation/agent-workflow-rules.md` (55 → ~9), дневник (понедельная нарезка).
 
-Статичные (только риск усечения при чтении): `obuchenie/tseren/2026-09-20-…` (106), `tandem/rynok-nishi-sravnenie.md` (96), `fondobrazovanie/npt-prodolzhitelnaya-i-aktivnaya-zhizn.md` (86), `fondobrazovanie/2026-08-20-interview-berdsk-shkola-9.md` (81), `inzhenernoe-obrazovanie/teoriya-kak-delat.md` (80), `pish/otchet-2025-2026.md` (70), `startup-studio/Союз_выпускников_стратсессия.md` (69), `docs/nedelnye-svodki.md` (68, append-only), `pish/arhiv-context-2026-09.md` (архив, не правится).
+Статичные (только риск усечения при чтении): `obuchenie/tseren/2026-09-20-…` (106), `tandem/rynok-nishi-sravnenie.md` (96), `fondobrazovanie/npt-prodolzhitelnaya-i-aktivnaya-zhizn.md` (86), `fondobrazovanie/2026-08-20-interview-berdsk-shkola-9.md` (81), `inzhenernoe-obrazovanie/teoriya-kak-delat.md` (80), `pish/otchet-2025-2026.md` (70), `startup-studio/Союз_выпускников_стратсессия.md` (69), `docs/nedelnye-svodki.md` (68, append-only), `pish/arhiv-context-2026-09.md`, `automation/workflow-incidents.md` (архивы, не правятся).
 
 Снимок устаревает — актуальные размеры всегда даёт `personal_list_path`.
 
