@@ -68,6 +68,10 @@
 
 - [finance/context.md](finance/context.md) — «Финансы»: личный агент план=факт семейного бюджета (S1, «Собранность»). Три ветки, см. «Инструкции для веток» → «Финансы».
 
+### Личные домены
+
+- [strahovki/context.md](strahovki/context.md) — «Страховки» (с 28.09.2026): реестр полисов — кто застрахован, покрытия, сроки, продления, случаи. Деньги по страховкам — в `finance/categories.md`, здесь не дублируются. Задачи — в портянке, проект «Страховки».
+
 ### Обучение
 
 - Сводные заметки треков (Google Docs): FPF — https://docs.google.com/document/d/1R0eRwKaD_OdD8tEA8A_iyUIs61hd_VmBkD7g72uMnqg/edit?usp=sharing · Управление наукой — https://docs.google.com/document/d/1vLG08OByB-xItNeSFWigNdSeFCRLTqpbN2PCK2kBDvA/edit?usp=sharing · Распожаризация — https://docs.google.com/document/d/1Pt2jb2IK24_5ha-b8GPvtS7vSeBNV5vmKjVo9ynIwAI/edit?usp=sharing · IWE / Экзокортекс — https://docs.google.com/document/d/1GxLtviWkBs1-Vqz4aUQkx5vIy91Hsей5nuShSqGsnA4/edit?usp=sharing
