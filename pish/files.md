@@ -1,0 +1,22 @@
+# ПИШ — файлы проекта (индекс)
+
+> Индекс файлов, которые нельзя записать в репозиторий (docx, xlsx, pptx, pdf, Google-документы). Сами файлы — на Google Drive, папка `LPF-files/pish/`: https://drive.google.com/drive/folders/1wmsnx2Wp0VWgrENxRDj6ePA5szUCBU83
+>
+> Правило — `prompts/slot.md`, раздел «Файлы слота». Создан 03.10.2026 (разовая проходка чата ветки «ПИШ»).
+
+| Дата | Имя | Что это | Версия | Ссылка | Откуда |
+|---|---|---|---|---|---|
+| 2026-10-02 | 2026-10-02-правки-лендинг-вебинар-0710.docx | Правки в страницу вебинара 7.10 (bio.saes.nsu.ru/webinar0710): 8 правок в формате «сейчас → заменить на → зачем → кто» | финальная | https://drive.google.com/file/d/1DaE2vYcn0SGQ96brcKJK9bxLLpdD1E0_/view | чат |
+| 2026-10-02 | 2026-10-02-правки-лендинг-курс-ML.docx | Правки в страницу курса «Машинное обучение и нейронные сети в биологии и медицине» (bio.saes.nsu.ru/ml): 14 правок и таблица опечаток | финальная | https://drive.google.com/file/d/14IpL4w2Z2vGGu4w8GPan2iuLAZtMSsIY/view | чат |
+| 2026-10-02 | 2026-10-02-объявления-вебинар-0710.docx | Два объявления вебинара 7.10: для «ничего не знаю» и для «уже программирую»; в конце — список непроверенного | финальная; файл собран 03.10 из текстов от 02.10 | https://drive.google.com/file/d/1q0NZzMxnsjYywIiJIDGQBISC9MRKzpp4/view | чат |
+| 2026-10-02 | 2026-10-02-опрос-слушателей-селекция.xlsx | Анкеты слушателей «Введения в геномную селекцию»: 9 строк, 6 с ответами; содержит имена и места работы слушателей | исходник Марии, копия | https://drive.google.com/file/d/1En6ruz9KnavaLWMvOUOrD7zCPh8PvMdn/view | чат |
+| 2026-08-15 | FPF_разбор_15082026 | Разбор воронки БИО от 15.08.2026 | копия от 03.10.2026 | https://docs.google.com/document/d/1zQZoZdnCgMqZrZsqJAdVNd2zs2EjlpoTRukHF-pcJc4/edit | копия с Drive; оригинал (владелец — Мария) в папке «Переупаковка воронки БИО 2026» |
+| 2026-08-21 | Изменения_в_воронку-FPF21082026 | Изменения в воронку курса ML от 21.08.2026 | копия от 03.10.2026 | https://docs.google.com/document/d/1QkO1TXjB-BpSKNRMD5BhOfGpL8w59eqYjV8wbdoy0lw/edit | копия с Drive; оригинал (Мария) в подпапке курса ML |
+| 2026-08-21 | Курс_на_сайт_переработка_21082026 | Переработанный текст лендинга курса ML (августовский черновик; на сайте по состоянию на 02.10.2026 не опубликован) | копия от 03.10.2026 | https://docs.google.com/document/d/1bhw3-J2_LrPbT6Kz-PWNT_kLBqvwR2Qla6NyuDLTQsI/edit | копия с Drive; оригинал (Мария) в подпапке курса ML |
+| 2026-08-21 | Степик_переработка_2108 | Переработка карточки курса ML на Stepik | копия от 03.10.2026 | https://docs.google.com/document/d/1Oupl3GOEmurPRLPVbyL0ebiHHPp0iTAQ4b6Ndlrxso8/edit | копия с Drive; оригинал (Мария) в подпапке курса ML |
+| 2026-08-21 | Продающие_цепочки | Цепочки писем по курсу ML | копия от 03.10.2026 | https://docs.google.com/document/d/1PW0oWN3plxeEZWnI0YCp2gON-CTxQ24LB9_zEudzkt8/edit | копия с Drive; оригинал (Мария) в подпапке курса ML |
+| 2026-08-21 | Сценарий_вебинара_2108 | Сценарий вебинара по курсу ML | копия от 03.10.2026 | https://docs.google.com/document/d/1XQR0kNGpX8i2-aCUZlAPGEi7Mr6vB-vt1qpoa0YvbbY/edit | копия с Drive; оригинал (Мария) в подпапке курса ML |
+| 2026-08-18 | [МЛ в био] Stepik | Исходная карточка курса ML на Stepik | копия от 03.10.2026 | https://docs.google.com/document/d/1BCam37GMKTb8IsaW0l7GiDsFD7LGCoWJiUTWCr8PTD8/edit | копия с Drive; оригинал чужой (v.lebedenko@g.nsu.ru), подпапка курса ML |
+| 2026-08-18 | Пирамидки | Документ Славы по курсу ML (360 КБ), содержание агентом не читалось | копия от 03.10.2026 | https://docs.google.com/document/d/1GWXWmwgHWmER0tvODd4DwmIROYhNSopJ0gUy7A4he4E/edit | копия с Drive; оригинал чужой (v.lebedenko@g.nsu.ru), подпапка курса ML |
+| 2026-08-17 | Сценарий вебинара | Сценарий вебинара по курсу «Генные сети» (оригинал правился 01.09.2026) | копия от 03.10.2026 | https://docs.google.com/document/d/118yFAeUYGL8GnSBxQ-u13LfyqowkA-McLozxwtQ7qe4/edit | копия с Drive; оригинал чужой (y.elena098@gmail.com), подпапка «Генные сети» |
+| 2026-08-18 | Папка «Переупаковка воронки БИО 2026» | Общая рабочая папка переупаковки: 1 документ в корне, подпапки «Машинное обучение и нейронные сети в биологии и медицине» (7 документов) и «Генные сети» (1 документ) | оригиналы; после 03.10.2026 копии в LPF-files/pish/ за ними не обновляются | https://drive.google.com/drive/folders/1T5IF-MaKa7B66gfwHym-ibblNnz4VEH_ | чужой, лежит у владельца (y.elena098@gmail.com; подпапки — v.lebedenko@g.nsu.ru) |
