@@ -81,7 +81,7 @@
 - **Живой трек — «Распожаризация».** Сводная заметка (Google Docs): https://docs.google.com/document/d/1Pt2jb2IK24_5ha-b8GPvtS7vSeBNV5vmKjVo9ynIwAI/edit?usp=sharing
 - [raspozharizaciya/](raspozharizaciya/) — рабочие файлы трека «Распожаризация»: файл на задание + [log.md](raspozharizaciya/log.md) (ход рассуждений по сессиям) + [zametki.md](raspozharizaciya/zametki.md) (свободные заметки Марии).
 - [obuchenie/](obuchenie/) — конспекты разовых мероприятий; `obuchenie/tseren/` — входной поток ветки IWE_Церен.
-- **Архив, треки не ведутся с 03.10.2026** (сводные заметки, Google Docs): FPF — https://docs.google.com/document/d/1R0eRwKaD_OdD8tEA8A_iyUIs61hd_VmBkD7g72uMnqg/edit?usp=sharing · Управление наукой — https://docs.google.com/document/d/1vLG08OByB-xItNeSFWigNdSeFCRLTqpbN2PCK2kBDvA/edit?usp=sharing · IWE / Экзокортекс — https://docs.google.com/document/d/1GxLtviWkBs1-Vqz4aUQkx5vIy91Hsей5nuShSqGsnA4/edit?usp=sharing · Трекер ритма обучения — https://docs.google.com/document/d/15jqH561SQ2if0wKB0LI3-y9qDsr9IuicPscRn8E1nUg/edit?usp=sharing
+- **Архив, треки не ведутся с 03.10.2026** (сводные заметки, Google Docs): FPF — https://docs.google.com/document/d/1R0eRwKaD_OdD8tEA8A_iyUIs61hd_VmBkD7g72uMnqg/edit?usp=sharing · Управление наукой — https://docs.google.com/document/d/1vLG08OByB-xItNeSFWigNdSeFCRLTqpbN2PCK2kBDvA/edit?usp=sharing · Трекер ритма обучения — https://docs.google.com/document/d/15jqH561SQ2if0wKB0LI3-y9qDsr9IuicPscRn8E1nUg/edit?usp=sharing
 - FPF — базовые правила (справочный файл, на него ссылается формат записей `iwe-development/log.md`): https://drive.google.com/file/d/12Il9fbFOH299f2LsF0Xf8QunHupK6vEI/view?usp=sharing
 
 ### IWE
