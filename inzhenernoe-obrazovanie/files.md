@@ -4,6 +4,10 @@
 
 | дата | имя | что это | версия | ссылка | откуда |
 |---|---|---|---|---|---|
+| 2026-09-30 | 2026-09-30-inzhenernoe-obrazovanie-den-minus1-i-den1.docx | Сводный документ: разбор дня −1, дня 1 (вечер), критика по FPF, день 2 (вечер) — для передачи Анциферову | финальная | https://drive.google.com/file/d/12Ex-Y1W9Yudef1XEEs8pXA5w8ozlE3Db/view | чат |
+| 2026-09-29 | 2026-09-29-den-1-vechernyaya-konferenciya.txt | Транскрипт вечерней конференции дня 1 — защита промежуточных результатов («Моя запись 129») | исходник | https://drive.google.com/file/d/1ifqqDY9IkEqvR13m2IIzjPcIRUqc7Vem/view | чат |
+| 2026-09-28 | 2026-09-28-den-minus1-ustanovochnaya-vstrecha.txt | Транскрипт установочной встречи с наставниками, день −1 («Встреча в Телемосте 28.09.26») | исходник | https://drive.google.com/file/d/1lySU8Qm3QQhkAyJ_M7fyZvidmm5HaF3J/view | чат |
+| 2026-09-21 | 2026-09-21-vstrecha-podgotovka-praktikuma.txt | Транскрипт рабочей встречи по подготовке практикума — даты, формат, название мероприятия («Моя запись 109») | исходник | https://drive.google.com/file/d/15oYKo9DFHlKMRB_-61P-XMYMHd76uCem/view | чат |
 | 2026-10-01 | 2026-10-01-otchet-den-3.docx | Отчёт о дне 3 эксперимента, обезличенный («держатель» вместо имени); Word-версия `otchet-den-3.md` | финальная | https://drive.google.com/file/d/19-bYwfWYpKp-wjwssb6wPfxaAPPVkMMv/view | чат |
 | 2026-10-01 | 2026-10-01-ustanovochnaya-den-3-utro.txt | Транскрипт утренней установочной дня 3 (ведущий со студентами) | исходник | https://drive.google.com/file/d/14rIGAzflxG7Z6rhlHedgUXaPrCqRtjFZ/view | чат |
 | 2026-10-01 | 2026-10-01-zashchita-den-3-gr1.txt | Транскрипт защиты дня 3, группа «Беременные» | исходник | https://drive.google.com/file/d/1pmgaBnKPBncP1xqwLyKwfTcw-2Wpjyvd/view | чат |
