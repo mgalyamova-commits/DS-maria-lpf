@@ -15,3 +15,4 @@
 | 2026-10-01 | 2026-10-01-otchet-den-2-dlya-vedushchego.docx | Отчёт держателя проблемы по дню 2 для ведущего; Word-версия `otchet-den-2.md` без приложения с сырыми записями | финальная | https://drive.google.com/file/d/1agO4ZoFr7hdhBvRzS5asDQ8BusoJiYBx/view | чат |
 | 2026-09-30 | 2026-09-30-ustanovochnaya-den-2-utro.txt | Транскрипт утренней установочной наставников дня 2 (16 мин) | исходник | https://drive.google.com/file/d/1HA1tyBJZyd9Tq00ZqEZTpDOqr08fzZCv/view | чат |
 | 2026-09-30 | 2026-09-30-praktikum-den-2-vecher.txt | Транскрипт вечерней защиты дня 2 («Моя запись 133») | исходник | https://drive.google.com/file/d/1peVjpd8M1ShXzGF8wnsRov3ijOqmPGtI/view | чат |
+| 2026-09-29 | 2026-09-29-postanovka-zadachi.md | Постановка задачи эксперимента — текст в редакции Марии, переданной Анциферову 29.09; копия `zadacha-eksperimenta-2026-09-29.md` | финальная | https://drive.google.com/file/d/1YOKc-wRtGFxv_UkZNcLNjcSUAgNnDO_X/view | чат |
