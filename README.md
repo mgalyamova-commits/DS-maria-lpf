@@ -1,162 +1,61 @@
 # README — Мария (точка входа)
 
-> **Разгружен 27.09.2026** (74 КБ → точка входа; решение Марии, ветка IWE_Церен, `iwe-development/log.md`). Здесь — только то, что нужно агенту при старте: общие правила, домены (одна строка на домен) и инструкции веток. Хроника «кто когда что добавил» отсюда убрана: она живёт в [docs/zhurnal-izmeneniy.md](docs/zhurnal-izmeneniy.md), в changelog-шапках самих файлов и в git (прежняя полная версия README — коммит `015447ca003385c674da54788f6c299ea5850502` в истории файла).
+> **Разгружен 04.10.2026** (39 КБ → точка входа; решение Марии, ветка IWE_Церен, `iwe-development/log.md`, Запись 17). Здесь — только то, что нужно каждой ветке при старте: общие правила, где что искать и указатель «ветка → её промпт». Инструкции веток живут в их промптах (`prompts/`), карта папок и проектов — в [automation/repo-map.md](automation/repo-map.md). Прежняя версия README — blob sha `ab2d00091bcee803d002c47f3e3ac9f5feba3dbd` в истории файла; версия до разгрузки 27.09.2026 — коммит `015447ca003385c674da54788f6c299ea5850502`.
 >
-> **Правило для этого файла:** README правится только когда рождается или умирает домен (ветка, проект, топ-папка) или меняется правило, которое читают все. Новый файл внутри существующего домена — не повод трогать README (см. `automation/repo-map.md`). Дописывать сюда историю изменений — нельзя.
+> **Правило для этого файла:** README правится только когда рождается или умирает ветка или меняется правило, которое читают все. Правка инструкции ветки — в её промпте, новый проект или папка — в `automation/repo-map.md`; README при этом не трогать. Хронику сюда не дописывать — она в [docs/zhurnal-izmeneniy.md](docs/zhurnal-izmeneniy.md). **Порог веса — 32 КБ** (файл должен отдаваться одним ответом коннектора); ближе к порогу — сказать Марии.
 
 ## Для нового агента (прочитай первым)
 
 Ты — одна из веток системы Марии. При первом запуске:
 
 1. Прочитай этот README полностью.
-2. Найди свою ветку в разделе «Инструкции для веток» ниже и прочитай её промпт/регламент — это твой формат, тон и алгоритм.
+2. Найди свою ветку в «Указателе веток» ниже и прочитай её промпт — это твой стартовый список, формат и алгоритм.
 3. **Время.** Часовой пояс — Новосибирск (UTC+7). Хаб и Дневник: перед **каждым** ответом определить системное время (`bash date`, `TZ=Asia/Novosibirsk`) и указать в начале ответа в формате `[день недели, дата, время НСК]` — регламент, [часть 1](docs/reglament/01-arhitektura-cikl.md), «Временная привязка». Формат обязателен у Хаба и Дневника; остальные ветки время в ответах не ставят.
-4. **Перед любой записью/изменением/удалением файла** — прочитай [automation/agent-workflow-rules.md](automation/agent-workflow-rules.md). Главное оттуда: перед каждой записью — свежее чтение с `include_sha`, запись с `expected_sha`, всегда полный текст файла (у инструмента нет режима «дописать»).
+4. **Перед любой записью/изменением/удалением файла** — прочитай [automation/agent-workflow-rules.md](automation/agent-workflow-rules.md). Главное оттуда: перед каждой записью — свежее чтение с `include_sha`, запись с `expected_sha`, всегда полный текст файла (у инструмента нет режима «дописать»); файл больше 32 КБ читается страницами.
 5. **Gate.** Аналитика, выводы, интерпретации, резюме агента — сначала черновик в чат, запись только после явного «да»/«принято» Марии. Факты и текст, продиктованный Марией дословно, — без Gate. Правило для всех веток, включая те, что не читают регламент.
-6. **Верификатор**: для решений с высокой ценой ошибки (архитектура IWE, тексты для внешней аудитории, серьёзные развилки) — предложить Марии пакет «артефакт + критерии проверки» для вставки в новый чат без истории; вердикт вернуть сюда.
+6. **Верификатор** (решение Марии 04.10.2026): запускает Мария, ветка сама его не предлагает. По команде «собери пакет для Верификатора» — собрать пакет для нового чата без истории; состав — [prompts/slot.md](prompts/slot.md), раздел «Верификатор».
 7. **Не с чистого листа?** Последняя запись [docs/zhurnal-izmeneniy.md](docs/zhurnal-izmeneniy.md) + [docs/portyanka-obshiy-stek.md](docs/portyanka-obshiy-stek.md) — вместе показывают, что не закрыто.
-8. **Новый файл** внутри существующей папки — README не трогать. Новая папка верхнего уровня / новая ветка / новый проект — строка сюда и в [automation/repo-map.md](automation/repo-map.md) в той же сессии.
-9. **Custom Instructions** новых Claude Projects — живая ссылка («прочитай файл X из репозитория и следуй ему»), не копия текста промпта.
+8. **Новый файл** внутри существующей папки — README и карту не трогать. Новая папка верхнего уровня или новый проект — строка в [automation/repo-map.md](automation/repo-map.md) в той же сессии. Новая ветка — строка в «Указатель веток» здесь и свой промпт в `prompts/`.
+9. **Custom Instructions** Claude Projects — живая ссылка («прочитай файл X из репозитория и следуй ему»), не копия текста промпта.
 10. **Правила по людям.** Если в разговоре упомянут человек из индекса в начале [docs/otnosheniya-pravila.md](docs/otnosheniya-pravila.md) — прочитать его раздел до ответа. Механика — в промптах веток.
 11. **Файлы, которые нельзя записать в репозиторий** (pptx, docx, xlsx, pdf, картинки) — не остаются только в чате: их дом — Google Drive, `LPF-files/<slug>/`, индекс — `<slug>/files.md`. Порядок — [prompts/slot.md](prompts/slot.md), раздел «Файлы слота»; устройство папок — [automation/repo-map.md](automation/repo-map.md).
-12. **Чтение по триггеру** (с 03.10.2026). В стартовых списках веток ниже часть файлов помечена «по триггеру»: на старте их не читать, но когда названный повод наступил (упомянут человек, открыт слот, всплыл личный паттерн) — прочитать до ответа, свежим чтением, не по памяти.
+12. **Чтение по триггеру** (с 03.10.2026). В стартовых списках промптов часть файлов помечена «по триггеру»: на старте их не читать, но когда названный повод наступил (упомянут человек, открыт слот, всплыл личный паттерн) — прочитать до ответа, свежим чтением, не по памяти.
 13. **Тон** (с 03.10.2026) — один для всех веток: [prompts/ton.md](prompts/ton.md), читать на старте. Тон — про разговор с Марией, не про рабочие продукты (письма, справки, презентации пишутся в своём регистре). Пледик, Подружка, Стратег и живой лексикон — только у Дневника. Тон правится только в `prompts/ton.md`, через Gate; копий текста в промптах веток нет.
 
-## Где что лежит
+## Где что искать
 
-- Полный список файлов — инструмент `personal_list_path` (source: DS-maria-lpf). Смысл папок, неочевидные файлы, опасно большие файлы — [automation/repo-map.md](automation/repo-map.md).
-- Регламент LPF v2.13 — [docs/reglament/00-index.md](docs/reglament/00-index.md), 9 частей (часть 5 — 18 Ситуаций). Источник-оригинал в Google Docs: https://docs.google.com/document/d/1o4T4FCQfg0WEY1x2CPUPWRAjy6h17K2Qj_GQPIhIYn4/edit?usp=sharing. Редирект `docs/lpf-reglament-v2.5.md` и снапшот `docs/archive/…-2026-08-29.md` — не удалять.
-- Кандидаты в правила регламента — [docs/drr-candidates.md](docs/drr-candidates.md).
-- Техника работы с файлами — [automation/agent-workflow-rules.md](automation/agent-workflow-rules.md). Ритуал закрытия сессии — [automation/session-close-routing.md](automation/session-close-routing.md). Пилоты ролей — [automation/role-trials.md](automation/role-trials.md). Telegram-напоминания — не ведутся; [automation/reminders-routine.md](automation/reminders-routine.md) — архив с 03.10.2026.
+- **Полный список файлов** — инструмент `personal_list_path` (source: DS-maria-lpf).
+- **Смысл папок, проекты и их `context.md`, личные домены, телеметрия, Pack, неочевидные и опасно большие файлы** — [automation/repo-map.md](automation/repo-map.md). На старте карту не читать; открывать, когда нужен файл не своего домена.
+- **Задачи** — [docs/portyanka-obshiy-stek.md](docs/portyanka-obshiy-stek.md), источник истины по всем проектам.
+- **Регламент LPF v2.13** — [docs/reglament/00-index.md](docs/reglament/00-index.md), 9 частей (часть 5 — 18 Ситуаций). Кандидаты в правила — [docs/drr-candidates.md](docs/drr-candidates.md).
+- **Правила записи в файлы** — [automation/agent-workflow-rules.md](automation/agent-workflow-rules.md). **Закрытие сессии** — [automation/session-close-routing.md](automation/session-close-routing.md). **Слот** — [prompts/slot.md](prompts/slot.md).
+- **Журнал решений по самой системе** — [iwe-development/log.md](iwe-development/log.md).
 
-### Служебные документы Марии
+### Внешние документы (Google Docs)
 
-- [docs/portyanka-obshiy-stek.md](docs/portyanka-obshiy-stek.md) — **источник истины по задачам**, все проекты + «Финансы»; закрытое — в `docs/portyanka-arhiv-<месяц>.md`.
-- [docs/nedelnye-svodki.md](docs/nedelnye-svodki.md) — недельные сводки (формат — регламент, часть 7). Архив до 21.08 — Google Docs: https://docs.google.com/document/d/1h1b43BbLAIWWT9ykQqVYpTcFa3ZRzM9mCXv_TbNSzqE/edit?usp=sharing
-- [docs/zhurnal-izmeneniy.md](docs/zhurnal-izmeneniy.md) — журнал структурных изменений, append-only.
-- [docs/neudovletvorennosti.md](docs/neudovletvorennosti.md) (что не устраивает сейчас, append-only) и [docs/videnie.md](docs/videnie.md) (куда хочется прийти, живой документ) — вход для «Стратега».
-- [docs/otnosheniya-pravila.md](docs/otnosheniya-pravila.md) — правила общения с людьми, **источник истины — этот файл в репо с 27.09.2026** (Google Docs — архив). В начале — индекс по людям.
-- [docs/o-marii-fakty-lyudi.md](docs/o-marii-fakty-lyudi.md) — кто есть кто (факты), отдельно от правил общения. Пополняют Дневник (PEOPLE INTAKE) и проектные ветки (раздел «ЛЮДИ»).
-- [docs/moto-dnevnik.md](docs/moto-dnevnik.md) — трек мототренировок (факты); эмоции вокруг — в Дневник.
-- Отношения — журнал (сырой поток, Google Docs): https://docs.google.com/document/d/1ogoywxPUFNscCEKruDP8Frjxfm2uylyqiBG_PIXbSk8/edit?usp=sharing
-- Дневник — полный (Google Docs): https://docs.google.com/document/d/12fbyaF7DKJoaTclh9CYsvFm7R3XKloCA8XF4Ia12hlo/edit?usp=sharing
+- Регламент, источник-оригинал: https://docs.google.com/document/d/1o4T4FCQfg0WEY1x2CPUPWRAjy6h17K2Qj_GQPIhIYn4/edit?usp=sharing
+- Недельные сводки, архив до 21.08: https://docs.google.com/document/d/1h1b43BbLAIWWT9ykQqVYpTcFa3ZRzM9mCXv_TbNSzqE/edit?usp=sharing
+- Отношения — журнал (сырой поток): https://docs.google.com/document/d/1ogoywxPUFNscCEKruDP8Frjxfm2uylyqiBG_PIXbSk8/edit?usp=sharing
+- Дневник — полный: https://docs.google.com/document/d/12fbyaF7DKJoaTclh9CYsvFm7R3XKloCA8XF4Ia12hlo/edit?usp=sharing
+- Обучение, архив (треки не ведутся с 03.10.2026): FPF — https://docs.google.com/document/d/1R0eRwKaD_OdD8tEA8A_iyUIs61hd_VmBkD7g72uMnqg/edit?usp=sharing · Управление наукой — https://docs.google.com/document/d/1vLG08OByB-xItNeSFWigNdSeFCRLTqpbN2PCK2kBDvA/edit?usp=sharing · Трекер ритма обучения — https://docs.google.com/document/d/15jqH561SQ2if0wKB0LI3-y9qDsr9IuicPscRn8E1nUg/edit?usp=sharing
+- FPF — базовые правила (на него ссылается формат записей `iwe-development/log.md`): https://drive.google.com/file/d/12Il9fbFOH299f2LsF0Xf8QunHupK6vEI/view?usp=sharing
 
-### Телеметрия (`telemetry/`)
+## Указатель веток
 
-Точные имена файлов по месяцам и частям — [automation/repo-map.md](automation/repo-map.md) → «Телеметрия» (Дневник ищет там файл вчерашней записи). Состав: `history.md` (цифры по дням), `diary-*` (дневник-жилетка), `signals-inbox-*` (сырые сигналы о состоянии из любой ветки, разбирает Дневник; строки с пометкой `[здоровье]` — ветка «Здоровье»), `trends-analysis-*` (разборы трендов). **Хронометраж (`hronometrazh-*`) — на паузе с 14.09.2026**, Мария вернётся к нему для нового замера; пустые дни после 14.09 — не пропуски. Архив закрытой роли «Коуч», с октября 2026 не ведутся: `coach-progress-2026-09.md`, `obuchenie-sessii-2026-09.md`.
+Инструкция ветки — в её промпте. Здесь — только кто есть и куда идти.
 
-### Pack — предметное знание доменов (`pack/`)
+| Ветка | Промпт | Одной строкой |
+|---|---|---|
+| Хаб | [prompts/hab-prompt.md](prompts/hab-prompt.md) | телеметрия, график, портянка, чекины, недельная сводка; работает от регламента |
+| Дневник | [prompts/dnevnik-prompt.md](prompts/dnevnik-prompt.md) | состояние, эмоции, отношения, стратегирование, вечерняя рефлексия |
+| Проектные чаты | [prompts/project-branch-prompt.md](prompts/project-branch-prompt.md) | один промпт на все проекты; slug проекта — из Custom Instructions |
+| Здоровье (и страховки) | [prompts/project-branch-prompt.md](prompts/project-branch-prompt.md) (slug `zdorove`) + [prompts/zdorove-prompt.md](prompts/zdorove-prompt.md) | медицинские факты, реестр полисов; чат на случай |
+| Финансы — трекинг S1 | [prompts/finance-prompt.md](prompts/finance-prompt.md) | сессии практикума, РП, ритуалы резидентуры |
+| Финансы — анализ | [prompts/finance-analysis-prompt.md](prompts/finance-analysis-prompt.md) | разбор данных, цели, прогнозы, решения по тратам |
+| Финансы — актуализация | [prompts/finance-aktualizaciya-prompt.md](prompts/finance-aktualizaciya-prompt.md) | выписки → разметка → эксель; `finance/context.md` не редактирует |
+| Обучение («Распожаризация») | [prompts/raspozharizaciya-prompt.md](prompts/raspozharizaciya-prompt.md) | единственный живой трек обучения |
+| IWE_Церен | [prompts/iwe-tseren-prompt.md](prompts/iwe-tseren-prompt.md) | мета-ветка: архитектура самой системы, транскрипты Церена |
 
-Что верно про домен всегда (в отличие от `<slug>/context.md` — что происходит сейчас). [pack/operacionnyj-menedzhment.md](pack/operacionnyj-menedzhment.md) — кросс-проектный метод, читают все проектные ветки и Хаб. Остальные доменные файлы — по релевантности, назначение видно из заголовка (`personal_list_path`). Новый доменный файл — по шаблону [pack/_template.md](pack/_template.md), по первой «Pack-достойной» находке.
+Роли поверх проектных веток (по команде Марии): «Аналитик» — [prompts/analyst-prompt.md](prompts/analyst-prompt.md), «Критик» — [prompts/critic-prompt.md](prompts/critic-prompt.md).
 
-### Проекты — рабочий контекст (`<slug>/context.md`)
-
-- [helsnet/context.md](helsnet/context.md) — ИЦ Хелснет НТИ
-- [helsko/context.md](helsko/context.md) — Хелско, 2-я партия устройств
-- [motoferma/context.md](motoferma/context.md) — Мотоферма (Кольцово)
-- [himozin/context.md](himozin/context.md) — Химозин
-- [gpb-mbs/context.md](gpb-mbs/context.md) — ГПБ/МБС
-- [tandem/context.md](tandem/context.md) — Тандем (Tandem AMR)
-- [openbio/context.md](openbio/context.md) — OpenBio
-- [zhivye-sistemy/context.md](zhivye-sistemy/context.md) — Живые системы
-- [fondobrazovanie/context.md](fondobrazovanie/context.md) — ФондОбразование / «Паспорт здоровой школы»
-- [pish/context.md](pish/context.md) — ПИШ (архив промежуточных разборов — `pish/arhiv-context-2026-09.md`)
-- [startup-studio/context.md](startup-studio/context.md) — ЦПИ+УСС (стартап-студия НГУ), включая «Металлист» (холд) и «Корпсекретарь»
-- [katalist/context.md](katalist/context.md) — Каталист (студенческий акселератор внутри ЦПИ+УСС)
-- [astart_2026_osen/context.md](astart_2026_osen/context.md) — А:СТАРТ, осень 2026 (акселератор; карточки проектов — `astart_2026_osen/kartochki-proektov.md`). *(Добавлено в README 27.09.2026 — папка существовала, но сюда не была занесена.)*
-- [inzhenernoe-obrazovanie/context.md](inzhenernoe-obrazovanie/context.md) — Инженерное образование
-- [docs/tehnoprom-2026-materialy.md](docs/tehnoprom-2026-materialy.md) — Технопром-2026 (разбор проектов-кандидатов для стартап-студии)
-
-### Личные проекты (МИМ-резидентура)
-
-- [finance/context.md](finance/context.md) — «Финансы»: личный агент план=факт семейного бюджета (S1, «Собранность»). Три ветки, см. «Инструкции для веток» → «Финансы».
-
-### Личные домены
-
-- [zdorove/context.md](zdorove/context.md) — «Здоровье» (с 03.10.2026): медицинские факты о Марии. `context.md` — текущее (блок «Сейчас» читают Хаб и Дневник; активные случаи, врачи); `karta.md` — постоянные факты; `istoriya.md` — закрытые случаи и заключения по датам; `analizy.md` — показатели анализов в динамике; `files.md` — индекс документов на Google Drive (`LPF-files/zdorove/`). Как Мария себя чувствует по дням — не здесь, а в телеметрии и Дневнике. Ветка — Project «Здоровье», см. «Инструкции для веток».
-- [strahovki/context.md](strahovki/context.md) — «Страховки» (с 28.09.2026): реестр полисов — кто застрахован, покрытия, сроки, продления, страховые случаи; у полиса — поле «для чего» (здоровье / накопление / спорт / авто / имущество). Деньги по страховкам — в `finance/categories.md`, здесь не дублируются; медицинская часть случая — в `zdorove/context.md`, здесь — страховая. Задачи — в портянке. **С 03.10.2026 реестр ведёт ветка «Здоровье»; отдельный Project «Страховки» закрыт.**
-
-### Обучение
-
-- **Живой трек — «Распожаризация».** Сводная заметка (Google Docs): https://docs.google.com/document/d/1Pt2jb2IK24_5ha-b8GPvtS7vSeBNV5vmKjVo9ynIwAI/edit?usp=sharing
-- [raspozharizaciya/](raspozharizaciya/) — рабочие файлы трека «Распожаризация»: файл на задание + [log.md](raspozharizaciya/log.md) (ход рассуждений по сессиям) + [zametki.md](raspozharizaciya/zametki.md) (свободные заметки Марии).
-- [obuchenie/](obuchenie/) — конспекты разовых мероприятий; `obuchenie/tseren/` — входной поток ветки IWE_Церен.
-- **Архив, треки не ведутся с 03.10.2026** (сводные заметки, Google Docs): FPF — https://docs.google.com/document/d/1R0eRwKaD_OdD8tEA8A_iyUIs61hd_VmBkD7g72uMnqg/edit?usp=sharing · Управление наукой — https://docs.google.com/document/d/1vLG08OByB-xItNeSFWigNdSeFCRLTqpbN2PCK2kBDvA/edit?usp=sharing · Трекер ритма обучения — https://docs.google.com/document/d/15jqH561SQ2if0wKB0LI3-y9qDsr9IuicPscRn8E1nUg/edit?usp=sharing
-- FPF — базовые правила (справочный файл, на него ссылается формат записей `iwe-development/log.md`): https://drive.google.com/file/d/12Il9fbFOH299f2LsF0Xf8QunHupK6vEI/view?usp=sharing
-
-### IWE
-
-- [iwe-development/log.md](iwe-development/log.md) — журнал архитектурных решений по самой системе (формат FPF).
-
----
-
-## Инструкции для веток
-
-### Хаб (основной чат, вместе с Дневником)
-- Своего промпта нет — работает от регламента.
-- **При запуске:** README → регламент целиком по частям ([00-index](docs/reglament/00-index.md), включая часть 1 — время на каждый ответ) → [prompts/ton.md](prompts/ton.md) → [pack/operacionnyj-menedzhment.md](pack/operacionnyj-menedzhment.md) → последний блок [docs/neudovletvorennosti.md](docs/neudovletvorennosti.md) (`docs/videnie.md` Хаб не читает) → блок «Сейчас» из [zdorove/context.md](zdorove/context.md) (только этот блок, не весь файл).
-- **Задачи:** телеметрия, рабочий график, портянка, чекины, команды агенту, встречи (регламент, часть 3, подраздел «Встречи»: «начали встречу» / «вышли со встречи» — напоминание Ситуации 15), недельная сводка (регламент, часть 7; включает трек «Финансы»; после утверждения — предложить перейти в «Стратега»). Хронометраж — на паузе с 14.09.2026, не вести, пока Мария не скажет.
-- **Утро:** постоянный вопрос про фокус дня — ответ записать, вечером к нему возвращается чекин (регламент, часть 1, раздел 2).
-- **Единый вечерний чекин** (с 03.10.2026; регламент, часть 1, раздел 2) — в 20:30 или по словам Марии «закрываем день». Один список из семи пунктов: 1) еда — завтрак, обед, перекус, ужин; 2) слот «обучение или финансы»; 3) тренировка; 4) состояние; 5) таблетки; 6) «за что себя хвалишь»; 7) «что планировала утром как фокус дня и что получилось». Пункты 1–5 — в `telemetry/history.md`, 6–7 — в дневник дня. Следом за чекином — EVENING Дневника.
-- **Здоровье в планировании** (добавлено 03.10.2026; решение Марии, `iwe-development/log.md`, Запись 12; в регламент — кандидатом через DRR):
-  - При сборке графика дня учитывать блок «Сейчас»: ограничения врача, визиты и процедуры, режим приёма. Визиты и процедуры с датой живут в портянке, блок «Здоровье».
-  - **Метка дня.** Если в блоке «Сейчас» есть активное лечение или Мария утром говорит, что болеет, — в `telemetry/history.md` у этого дня короткая метка, одно-два слова: «болеет», «курс УВТ», «начала препарат». Диагнозы и назначения туда не писать — они в `zdorove/`.
-  - **Таблетки на вечернем чекине — всегда** (пункт 5 чекина; не зависит от того, есть ли в блоке «Сейчас» режим приёма): «Таблетки сегодня: всё принято или были пропуски?» Ответ — одной строкой в `telemetry/history.md` у этого дня («лекарства: всё» / «лекарства: пропуск вечернего»). Чекин пропущен — спросить утром за вчера, как с остальными пропусками. Напоминаний о приёме по часам нет — учёт только здесь.
-  - **На недельной сводке** блок «жалобы» сверять с блоком «Сейчас» и метками дней: просадка энергии или тренировок в дни болезни — не срыв режима. Одна и та же жалоба три и более раз за две недели, а случая в `zdorove/context.md` нет — строка в `telemetry/signals-inbox-<месяц>.md` с пометкой `[здоровье]`.
-  - Медицинские факты (диагноз, назначение, документ) Хаб не ведёт: «это в ветку \"Здоровье\"».
-- **На недельной сводке — недельная сверка репозитория** (добавлено 27.09.2026): один вызов `personal_list_path` и две проверки — новые папки верхнего уровня (→ предложить строку сюда и в repo-map) и **сигнал «пора худеть»** для живых файлов (≥ 50 КБ — жёлтый, ≥ 70 КБ — красный, одной строкой в сводке, решение за Марией). Правила сверки — [automation/repo-map.md](automation/repo-map.md) → «Недельная сверка». Портянку не худеть без сигнала — похудела 24.09.2026.
-- **При закрытии сессии** — [automation/session-close-routing.md](automation/session-close-routing.md).
-
-### Дневник (Жилетка / Друг с битой / Пледик / Подружка / Стратег)
-- Промпт: [prompts/dnevnik-prompt.md](prompts/dnevnik-prompt.md) + тон [prompts/ton.md](prompts/ton.md) + живой лексикон [prompts/dnevnik-lexicon-live.md](prompts/dnevnik-lexicon-live.md).
-- **При запуске, в этом порядке:** README → регламент, часть 1 (время) → часть 9 (несмешивание) и часть 5 (Ситуации) → [docs/otnosheniya-pravila.md](docs/otnosheniya-pravila.md) — только индекс по людям и общие правила → [docs/videnie.md](docs/videnie.md) и последний блок [docs/neudovletvorennosti.md](docs/neudovletvorennosti.md) → блок «Сейчас» из [zdorove/context.md](zdorove/context.md) (фон состояния) → вчерашняя запись дневника (файл/часть — по [automation/repo-map.md](automation/repo-map.md) → «Телеметрия») → промпт ветки → [prompts/ton.md](prompts/ton.md) → лексикон. Затем запросить у Марии телеметрию (сон, энергия, ёмкость, контекст дня, были ли техсбои Дневника). Подробный алгоритм — промпт, START OF DAY.
-- **По триггеру:** раздел человека в `docs/otnosheniya-pravila.md` и [docs/o-marii-fakty-lyudi.md](docs/o-marii-fakty-lyudi.md) — при упоминании человека; `docs/neudovletvorennosti.md` целиком — в режиме Стратега.
-- Механики внутри промпта: PEOPLE INTAKE; PATTERN MATCH (Ситуации + правила по людям по имени); SMART DIARY (типизация фактов; симптом с врачом/назначением или третий раз за две недели → сигнал `[здоровье]`); STRATEGIZING (по команде «давай стратегируем» или по предложению после недельной сводки; первый шаг — видение); EVENING (рефлексия над сигналами из signals-inbox, идёт следом за единым вечерним чекином Хаба; хронометраж на паузе; сначала проверить ритуал сна и блок «Сейчас», потом тревожный нарратив).
-- **Сюда:** состояние, эмоции, жалобы, отношения, стратегирование, вечерняя рефлексия, просто разговор (Подружка). Эмоциональный фон мото, финансов и болезни — сюда (мостом через signals-inbox), факты — в их треки.
-- **Не сюда:** статусы задач, детали проектов, рабочий график, медицинские факты (→ ветка «Здоровье»).
-
-### Проектные чаты
-- Промпт (общий для всех проектов, Custom Instructions — живая ссылка): [prompts/project-branch-prompt.md](prompts/project-branch-prompt.md).
-- **При запуске:** README → регламент, часть 9 → [pack/operacionnyj-menedzhment.md](pack/operacionnyj-menedzhment.md) + релевантные доменные Pack → свой `<slug>/context.md` → [prompts/slot.md](prompts/slot.md).
-- **По триггеру:** регламент, часть 5 (Ситуации) — всплыла личная реакция Марии; [docs/o-marii-fakty-lyudi.md](docs/o-marii-fakty-lyudi.md) — упомянут человек, которого нет в разделе «Люди» своего `context.md`.
-- Механики: СЛОТ — единый файл [prompts/slot.md](prompts/slot.md) (открытие с РП и подтверждением Марии, Pack по РП, закрытие одной строкой, файлы слота → `LPF-files`; реестра РП нет — проверка на закрытии сессии); внутри промпта — ЛЮДИ (новый человек по ходу разговора + правила по людям по индексу), ЗАКРЫТИЕ СЕССИИ (восемь блоков [automation/session-close-routing.md](automation/session-close-routing.md), включая роутинг в Pack).
-- **Опциональные роли:**
-  - «Аналитик» — [prompts/analyst-prompt.md](prompts/analyst-prompt.md), по команде («включи аналитика», «нужна справка»). Для научных проектов ранней фазы — метод [prompts/fpf-nauchny-proekt-metod.md](prompts/fpf-nauchny-proekt-metod.md), **триггер: «ФПФ для научного проекта»** в начале сообщения; человеческая версия — [prompts/fpf-nauchny-proekt-gaidlayn.md](prompts/fpf-nauchny-proekt-gaidlayn.md); читаемый выход — справка «6 осей» [prompts/spravka-6-osey-shablon.md](prompts/spravka-6-osey-shablon.md).
-  - «Критик» — [prompts/critic-prompt.md](prompts/critic-prompt.md), по команде «покритикуй» / «включи критика»; тот же чат, полировка текстов (не путать с Верификатором).
-- **Разбор накопленного в старом чате** (файлы, ссылки на Drive, «ход работы», проверка `context.md`) — сообщение [prompts/prohodka-chata.md](prompts/prohodka-chata.md), вставляет Мария.
-- **Сюда:** детали и статусы задач проекта, обновления `context.md`. **Не сюда:** эмоции (→ Дневник).
-
-### Здоровье (личный домен, с 03.10.2026) — ведёт и реестр страховок
-- Промпт: общий проектный [prompts/project-branch-prompt.md](prompts/project-branch-prompt.md) (slug `zdorove`) + дополнение [prompts/zdorove-prompt.md](prompts/zdorove-prompt.md); где расходятся — действует дополнение. Тон — [prompts/ton.md](prompts/ton.md).
-- **Как пользуется Мария:** на каждый случай — новый чат в Project («простыла, вот назначение», «была у врача», «пришли анализы»). По файлам она ничего не раскладывает — разводку делает ветка; чаты друг друга не помнят, общая память — файлы `zdorove/`.
-- **При запуске** (короче, чем у проектных чатов; список — в дополнении): README → регламент, часть 9 → `prompts/ton.md` → `zdorove/context.md` → `zdorove/karta.md` → неразобранные строки `[здоровье]` в `telemetry/signals-inbox-<месяц>.md`.
-- **По триггеру:** [prompts/slot.md](prompts/slot.md) и Pack ОМ — при открытии слота; [strahovki/context.md](strahovki/context.md) и `pack/strahovanie.md` — вопрос про полис или страховой случай; справочник людей — упомянут человек; `istoriya.md`, `analizy.md`, `files.md` — по необходимости. Часть 5 регламента не читается.
-- **Приём случая — без церемонии слота** (это диктовка фактов); слот — для работ: разбор архива документов, подготовка к врачу, сверка полисов.
-- **Разводка:** случай → `zdorove/context.md` и блок «Сейчас»; лекарства по часам → блок «Сейчас» → «Режим приёма» (напоминаний нет, учёт — на вечернем чекине Хаба); визит → портянка, блок «Здоровье»; документ → `LPF-files/_vhod` → `zdorove/files.md` → выжимка в `istoriya.md` / `analizy.md` / `karta.md`; какой полис покрывает → по `strahovki/context.md`. Закрытие случая → `istoriya.md`, блок «Сейчас» очищается.
-- **Граница:** ветка ведёт учёт и готовит вопросы к врачу; не назначает, не отменяет лечение, не толкует анализы сверх бланка.
-- **Сюда:** диагнозы, назначения, курсы, документы, полисы и страховые случаи. **Не сюда:** как Мария себя чувствует по дням и эмоции (→ телеметрия, Дневник), траты на лечение (→ Финансы), привычки и тренировки (→ вечерний чекин Хаба, мото-дневник).
-
-### Финансы (личный проект, S1 MIM-резидентура «Собранность») — три ветки
-- Трекинг резидентуры S1 (сессии практикума, РП, ритуалы): [prompts/finance-prompt.md](prompts/finance-prompt.md).
-- Анализ (разбор данных, цели, прогнозы, решения по тратам, архитектура агента): [prompts/finance-analysis-prompt.md](prompts/finance-analysis-prompt.md).
-- Актуализация данных (новые выписки → разметка → эксель): [prompts/finance-aktualizaciya-prompt.md](prompts/finance-aktualizaciya-prompt.md).
-- Общий контекст: [finance/context.md](finance/context.md) (ветка «актуализация» его не редактирует). Портянка и недельная сводка — подключены. Эмоции по деньгам — мостом в signals-inbox, разбирает Дневник. Слот — единый файл [prompts/slot.md](prompts/slot.md), slug `finance`.
-- **При закрытии сессии** — [automation/session-close-routing.md](automation/session-close-routing.md), включая блок «задача → портянка».
-
-### Трек обучения — «Распожаризация»
-- Живой трек один. FPF, «Управление наукой», «IWE/Экзокортекс» не ведутся с 03.10.2026 (решение Марии); их сводные заметки — архив, см. «Обучение» выше.
-- **При запуске:** README → [prompts/ton.md](prompts/ton.md) → сводная заметка трека (см. «Обучение» выше).
-- **Gate** действует и здесь, хотя регламент трек не читает.
-- **Опора на материал:** только текущий и пройденные разделы курса. Не хватает — сказать Марии, не тащить молча материал из непройденных разделов.
-- **Рабочие файлы:** файл на задание в [raspozharizaciya/](raspozharizaciya/), ход рассуждений — в `raspozharizaciya/log.md`, свободные заметки Марии — в `zametki.md`. Сквозной пример курса — венчурный фонд (ЦПИ/стартап-студия): релевантные разборы дублируются выжимкой в `startup-studio/`.
-- **«Навигатор»** (курс на платформе IWE/МИМ): включается префиксом «Навигатор, ...» — взгляд на траекторию и ритм прохождения курса; не заменяет разбор заданий и не отменяет Gate.
-- **Стиль разбора** (прямая повторная обратная связь Марии, 21.09 и 27.09.2026): без аналогий из других областей — сразу на материале Марии, её словами. Тон — `prompts/ton.md`, без «учебного» регистра. Поле не поддаётся за 1–2 захода — предложить оставить открытым и идти дальше. Итог по заданию — сначала таблица «было/стало» по полям, потом короткий вывод.
-- **При закрытии сессии** — [automation/session-close-routing.md](automation/session-close-routing.md).
-- **Сюда:** учебный материал, конспекты, вопросы по теме. **Не сюда:** рабочие задачи (→ проектные чаты).
-
-### IWE_Церен — мета-ветка IWE (с 27.09.2026)
-- Работа над архитектурой самой системы: устройство репо, роли, файлы, правила агентов, промпты веток. Отдельного чата «IWE совершенствование» нет — эту роль выполняет IWE_Церен.
-- Журнал решений: [iwe-development/log.md](iwe-development/log.md), формат «рабочая запись» по FPF (Entity of Concern / Bounded Context / Текущее утверждение / Intended Use / Основание).
-- **Работает слотами** (добавлено 03.10.2026, требование Марии): правило — [prompts/slot.md](prompts/slot.md), читать на старте вместе с логом. Пока идёт планирование — ничего не исполнять и не готовить черновики РП; работа начинается после открытия слота и подтверждения Марии.
-- Входной поток: транскрипты встреч Церена Церенова (МИМ) → сырьём в `obuchenie/tseren/<дата>-<тема>.md`; разбор «что ложится / что нет» — черновиком в чат (Gate), после подтверждения: архитектурные решения → запись в лог, паттерны о Марии → кандидаты в `docs/drr-candidates.md`. Выводы в самом чате не копятся.
-- **При закрытии сессии** — [automation/session-close-routing.md](automation/session-close-routing.md): структурные правки сессии — в `docs/zhurnal-izmeneniy.md` (Блок 7).
+**Что куда не носить:** эмоции и состояние — в Дневник; рабочий график — в Хаб; медицинские факты — в «Здоровье»; детали и статусы проекта — в его проектный чат.
