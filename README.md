@@ -56,6 +56,7 @@
 | Финансы — актуализация | [prompts/finance-aktualizaciya-prompt.md](prompts/finance-aktualizaciya-prompt.md) | выписки → разметка → эксель; `finance/context.md` не редактирует |
 | Обучение («Распожаризация») | [prompts/raspozharizaciya-prompt.md](prompts/raspozharizaciya-prompt.md) | единственный живой трек обучения |
 | IWE_Церен | [prompts/iwe-tseren-prompt.md](prompts/iwe-tseren-prompt.md) | мета-ветка: архитектура самой системы, транскрипты Церена |
+| Воронка УСС | [prompts/voronka-uss-prompt.md](prompts/voronka-uss-prompt.md) | путь кандидата от сигнала до СД: комплектность, копание, встреча, шаги гонцам, статусы |
 
 Хаб и Дневник живут в одном Project: какая ветка в чате, Мария называет первым сообщением. Роли поверх проектных веток (по команде Марии): «Аналитик» — [prompts/analyst-prompt.md](prompts/analyst-prompt.md), «Критик» — [prompts/critic-prompt.md](prompts/critic-prompt.md).
 
