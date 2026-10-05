@@ -48,8 +48,8 @@
 
 | Ветка | Промпт | Одной строкой |
 |---|---|---|
-| Хаб | [prompts/hab-prompt.md](prompts/hab-prompt.md) | телеметрия, график, портянка, чекины, недельная сводка; работает от регламента |
-| Дневник | [prompts/dnevnik-prompt.md](prompts/dnevnik-prompt.md) | состояние, эмоции, отношения, стратегирование, вечерняя рефлексия |
+| Хаб | [prompts/hab-prompt.md](prompts/hab-prompt.md) | график, портянка, календарь, недельная сводка; телеметрию только читает; работает от регламента |
+| Дневник | [prompts/dnevnik-prompt.md](prompts/dnevnik-prompt.md) | состояние, эмоции, отношения, стратегирование, вечерний чекин и телеметрия (пишет `history.md`), вечерняя рефлексия |
 | Проектные чаты | [prompts/project-branch-prompt.md](prompts/project-branch-prompt.md) | один промпт на все проекты; slug проекта — из Custom Instructions |
 | Здоровье (и страховки) | [prompts/project-branch-prompt.md](prompts/project-branch-prompt.md) (slug `zdorove`) + [prompts/zdorove-prompt.md](prompts/zdorove-prompt.md) | медицинские факты, реестр полисов; чат на случай |
 | Финансы — трекинг S1 | [prompts/finance-prompt.md](prompts/finance-prompt.md) | сессии практикума, РП, ритуалы резидентуры |
