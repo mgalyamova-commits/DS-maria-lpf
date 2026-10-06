@@ -80,6 +80,7 @@
 
 ### События — где лежит разбор
 
+- 05.10 — документ для команды по БИО пересобран в формате «вопрос, данные, вывод, следующий шаг»: «БИО: набор на курсы в шести вопросах», ход работы — [hod-raboty/2026-10-05-bio-nabor-podacha-dlya-komandy.md](hod-raboty/2026-10-05-bio-nabor-podacha-dlya-komandy.md); команде не передан. В шаги по БИО Мария вписала Наташу Бреннер (объявление для новичков; откуда 10 человек 29.01).
 - 02.10 — встреча БИО, процесс продукта ДПО: [dpo-bio-process-produkta.md](dpo-bio-process-produkta.md); сверка калькуляции курса «Селекция» с моделью трека: [2026-10-02-sverka-kalkulyacii-dpo.md](2026-10-02-sverka-kalkulyacii-dpo.md).
 - 30.09 — линейка продуктов ДПО БИО (каталог, воронка, контакт продаж): [2026-09-30-dpo-bio-lineyka-produktov.md](2026-09-30-dpo-bio-lineyka-produktov.md).
 - 29.09–01.10 — эксперимент «Инженерное образование», ПИШ — площадка и поставщик студентов: [inzhenernoe-obrazovanie/context.md](../inzhenernoe-obrazovanie/context.md).
