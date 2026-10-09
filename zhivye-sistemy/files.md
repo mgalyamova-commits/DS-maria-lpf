@@ -1,0 +1,27 @@
+# Файлы проекта «Живые системы» — индекс
+
+Дом файлов — Google Drive, папка [`LPF-files/zhivye-sistemy/`](https://drive.google.com/drive/folders/17f6yEzkora3iIotbNUPUknyrvpIfmLzn). Бинарные файлы в репозиторий не пишутся. Шаблоны 2027 и правила оформления лежат отдельно: `professionaly/files.md`.
+
+Формат строки: дата добавления | имя | что это | версия | ссылка | РП слота.
+
+## геномная — документы компетенции «Геномная инженерия», прошлый год (2025)
+
+Подпапка: [геномная](https://drive.google.com/drive/folders/1U0UnzowcYuH3360LFX2DivfOvRW_SeTt). В «версии» — дата последнего изменения файла на Drive. Версии одного документа отличаются суффиксом в имени; расшифровки суффикса «АГ» в файлах нет, порядок взят по дате изменения.
+
+| Дата | Имя | Что это | Версия | Ссылка | РП слота |
+|---|---|---|---|---|---|
+| 09.10.2026 | 01-Описание компетенции (1).docx | Описание компетенции «Геномная инженерия», в тексте «2026 г.»: нормативные акты, шесть видов деятельности | изм. 30.09.2025 | [Drive](https://drive.google.com/file/d/17hb2-8hXhmFtAfgZl_go4WT5Qj2QmzQb/view?usp=drivesdk) | каталогизация входящих, 09.10.2026 |
+| 09.10.2026 | 02-Инфраструктурный лист_геномная_инженерия_2026.xlsx | Инфраструктурный лист | изм. 30.09.2025 | [Drive](https://drive.google.com/file/d/1U08JMeQGhNhV2NGIiTyGfYUPRGIPPlqv/view?usp=drivesdk) | то же |
+| 09.10.2026 | 03 План застройки компетенции_геномная_инженерия.docx | План застройки (1,8 МБ, с рисунками) | изм. 30.09.2025 | [Drive](https://drive.google.com/file/d/1XsX5Z4ibccSPoyl3qfmtUQ0Pnq6fymPz/view?usp=drivesdk) | то же |
+| 09.10.2026 | 04 Конкурсное Задание компетенции геномная инженерия.docx | Конкурсное задание | v1, изм. 04.10.2025 | [Drive](https://drive.google.com/file/d/1BAkTEoQA3tKCyeWbNXXsEn94aqfc0lej/view?usp=drivesdk) | то же |
+| 09.10.2026 | 04_Конкурсное_Задание_компетенции_геномная_инженерия_АГ.docx | Конкурсное задание | v2, изм. 09.10.2025 | [Drive](https://drive.google.com/file/d/1PZPsLW79FtPOQd-7WooyPR8zUNHOjqmS/view?usp=drivesdk) | то же |
+| 09.10.2026 | 04_Конкурсное_Задание_компетенции_геномная_инженерия_АГ_2.docx | Конкурсное задание | v3, изм. 11.10.2025, последняя | [Drive](https://drive.google.com/file/d/1WJbrqi8WGP4MqcPBUEXviZSQLCV8hL75/view?usp=drivesdk) | то же |
+| 09.10.2026 | 05 Критерии оценки компетенции геномная инженерия.xlsx | Схема оценки | v1, изм. 30.09.2025 | [Drive](https://drive.google.com/file/d/1eDONkJ-gJE8sruBJEg7HbMvejPf75IoY/view?usp=drivesdk) | то же |
+| 09.10.2026 | 05_Критерии_оценки_компетенции_геномная_инженерия_АГ.xlsx | Схема оценки | v2, изм. 09.10.2025 | [Drive](https://drive.google.com/file/d/1uwuvD31DwwbAJoQfOfKBtVmW4SCEQyIP/view?usp=drivesdk) | то же |
+| 09.10.2026 | 05_Критерии_оценки_компетенции_геномная_инженерия_АГ_2.xlsx | Схема оценки | v3, изм. 11.10.2025, последняя | [Drive](https://drive.google.com/file/d/1JyPclnoYYj2gdjsQc4zHm64Q1uOROQf5/view?usp=drivesdk) | то же |
+| 09.10.2026 | Лист_согласования_МБС.docx | Письмо-реквизиты ООО «Медико-биологический Союз» (Новосибирск) на фирменном бланке, в тексте «2023 г.»; лист согласования индустриального партнёра | изм. 01.10.2025 | [Drive](https://drive.google.com/file/d/10hoLD_NiX5FzH9UpqWFCfM1CweASxvN8/view?usp=drivesdk) | то же |
+| 09.10.2026 | 07-Программа проведения геномная инженерия.docx | Программа проведения чемпионата | изм. 04.10.2025 | [Drive](https://drive.google.com/file/d/1A4CMABFfljIJXR-6wFDrPwkxn0gY06cl/view?usp=drivesdk) | то же |
+| 09.10.2026 | Приложение 2 матрица.xlsx | Матрица: ПС 13.017 и 13.012, ФГОС, четыре модуля А–Г (16 + 19 + 34 + 31 = 100 баллов) | изм. 30.09.2025 | [Drive](https://drive.google.com/file/d/1t7_FerUBH8lCZ3MH0JkQCVqgrQ-LpVZV/view?usp=drivesdk) | то же |
+| 09.10.2026 | Приложение 3. Инструкция по охране труда (1).docx | Инструкция по охране труда под геномную лабораторию (бокс, центрифуги, амплификатор, электрофорез, реактивы) | изм. 04.10.2025 | [Drive](https://drive.google.com/file/d/1CxL71Gq8j4CIbEUREIh1faj8jdny4nD3/view?usp=drivesdk) | то же |
+| 09.10.2026 | Приложение 4. Чек-лист компетенции.xlsx | Чек-лист соответствия ФГОС СПО (35.02.05, 36.02.01, 18.02.15) по четырём модулям | v1, изм. 04.10.2025 | [Drive](https://drive.google.com/file/d/1Zm1-cWNZ1OAJSWeWheT3s_L7h3pKVrUg/view?usp=drivesdk) | то же |
+| 09.10.2026 | Приложение 4. Чек-лист компетенции_геномная.xlsx | Тот же чек-лист | v2, изм. 04.10.2025, последняя | [Drive](https://drive.google.com/file/d/14HT7S4daWMplPsUafHUvt8cNHU-UDx9T/view?usp=drivesdk) | то же |
