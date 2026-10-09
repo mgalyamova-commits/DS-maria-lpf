@@ -4,3 +4,4 @@
 - `prompts/project-branch-prompt.md` (было blob sha `b1a47cf32b3fe8f33cb7dd25655ebabd3bbac294`): в начале старта три строки — слот главнее «начинай сразу», дочитывание страниц до `complete: true`, отчёт о старте первой строкой.
 - Зачем: две ветки начинали работу без «да» (ПИШ, ЦПИ+УСС), по трём разным механизмам.
 - Решение Марии: ждать «да» всегда, Custom Instructions не трогать. Подробности — `iwe-development/log.md`, Запись 25; хвосты — там же, п. 19 очереди.
+- Дополнение, 09.10.2026: тот же блок («Слот», «Страницы», «Отчёт о старте» — где какие нужны) внесён в `prompts/hab-prompt.md`, `dnevnik-prompt.md`, `finance-prompt.md`, `finance-analysis-prompt.md`, `finance-aktualizaciya-prompt.md`, `voronka-uss-prompt.md`, `zdorove-prompt.md`, `iwe-tseren-prompt.md`, `raspozharizaciya-prompt.md`. Прежние blob sha — в `iwe-development/log.md`, п. 19 очереди.
