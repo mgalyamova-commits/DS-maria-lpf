@@ -43,3 +43,17 @@
 | 09.10.2026 | 2026-10-09-05-Критерии оценки геномная инженерия 2027 v1.xlsx | Критерии на шаблоне 2027: 4 критерия (18/17/34/31), 175 аспектов, лист «Перечень профессиональных задач» = таблица 1 КЗ; БП 34 / ОТ 5 по матрице; основа — критерии 2025 «АГ_2» | v1 | ссылки нет, файл у Марии (не загружен на Drive) | «Критерии оценки «Геномная инженерия» 2027», 09.10.2026 |
 | 09.10.2026 | 2026-10-09-Приложение 4 Руководство по оцениванию геномная инженерия 2027 v1.docx | Приложение 4 «Руководство по оцениванию» ККД 2027, 175 аспектов, 4 модуля | v1 | ссылки нет, файл у Марии (не загружен на Drive) | «Руководство по оцениванию», 09.10.2026 |
 | 09.10.2026 | 2026-10-09-06-Лист согласования геномная инженерия 2027 v1.docx | Лист согласования на бланке 2027: заполнена только компетенция; этап, субъект РФ, рекомендации, дата, ФИО и подпись — при согласовании | v1 | ссылки нет, файл у Марии (не загружен на Drive) | «Лист согласования», 09.10.2026 |
+## ККД 2027 на Drive (09.10.2026, загрузила Мария; папка id 1-n5DI0a0mZQTjsP21Bb1fuC6uZWxOF_c) — ссылки вместо «ссылки нет» в строках выше
+
+- 01 Описание компетенции (файл v3): https://drive.google.com/file/d/1tvhNiIDF0cXIcV5ZWZRM8G7OTUFEZjXB/view
+- 02 Инфраструктурный лист: https://drive.google.com/file/d/1swAmsURSVkI6EC_QNtpEMPNlndsKusBj/view
+- 03 План застройки: https://drive.google.com/file/d/1YJTiX-wsmGOpH0Z3_cXn5VFVC_s521wW/view
+- 04 Конкурсное задание v2: https://drive.google.com/file/d/11TmALJHVM6t6Vz84g2ZazmSN1tFqd0ua/view
+- 04 Ключи ответов v1: https://drive.google.com/file/d/1m0Dq7ck0NVpbeH7vFFU3yszK0tfl13fL/view
+- 05 Критерии оценки v1: https://drive.google.com/file/d/1VzNqip2id15w8pO0EtN9uqUkF3hVSh1x/view
+- 07 Программа проведения: https://drive.google.com/file/d/1i0fnl-X1uRpsm9lhH9JQMLHwdpGbLvR4/view
+- Приложение 2 Матрица: https://drive.google.com/file/d/1L14zDNiz8a0R-ua0wqchsZVjzjyKXzup/view
+- Приложение 3 ИОТ: https://drive.google.com/file/d/1u9eEGCS8rU-_GDACENFFHcVUQZp579JH/view
+- Приложение 4 Руководство по оцениванию v1: https://drive.google.com/file/d/1SFcoF7lMY-F77OqcJMplcMynGKH068Q5/view
+- 06 Лист согласования v1 — на Drive пока нет (собран после загрузки).
+- Расхождение: в ИЛ этап «Региональный», в критериях (05) «Национальный» — привести к одному.
