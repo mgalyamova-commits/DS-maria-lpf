@@ -19,7 +19,7 @@
 | 09.10.2026 | 07-Программа проведения.docx | Шаблон программы проведения чемпионата | шаблон 2027 | [Drive](https://drive.google.com/file/d/16zghD3dMQE6YvgXbVm5QeTKk3DxcfgeM/view?usp=drivesdk) | то же |
 | 09.10.2026 | Приложение 1. Инструкция по заполнению матрицы компетенции.docx | Что писать в шести столбцах матрицы (ОТФ, ТФ, ЗУН и ПК, модуль, инвариант/вариатив, баллы) | шаблон 2027 | [Drive](https://drive.google.com/file/d/15bJxEgASjEHqbupVC1lJno2FyYbqpLMZ/view?usp=drivesdk) | то же |
 | 09.10.2026 | Приложение 2. Матрица конкурсного задания.xlsx | Шаблон матрицы конкурсного задания | шаблон 2027 | [Drive](https://drive.google.com/file/d/1F0DeCQ9dTXZuOxJW_l5seI7CtuBe3aJl/view?usp=drivesdk) | то же |
-| 09.10.2026 | Приложение 3. Инструкция по охране труда.docx | Шаблон ИОТ с пропусками («Профессионалы», 202_ г., наименование этапа и субъект РФ) | шаблон 2027 | [Drive](https://drive.google.com/file/d/1C0EdSSIa2iAUfaiovpesdk_BU7f/view?usp=drivesdk) | то же |
+| 09.10.2026 | Приложение 3. Инструкция по охране труда.docx | Шаблон ИОТ с пропусками («Профессионалы», 202_ г., наименование этапа и субъект РФ) | шаблон 2027 | [Drive](https://drive.google.com/file/d/1C0EdSSIa2iAUfaiovpesdg4dUQm_BU7f/view?usp=drivesdk) | то же |
 | 09.10.2026 | Приложение 4. Руководство по оцениванию конкурсного задания.docx | Шаблон руководства по оцениванию | шаблон 2027 | [Drive](https://drive.google.com/file/d/1g14xYqmMNnV13hC_XkeT32ZO1HtrqPbk/view?usp=drivesdk) | то же |
 
 ## pravila-oformleniya — правила оформления документации
