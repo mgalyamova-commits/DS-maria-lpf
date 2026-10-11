@@ -18,6 +18,7 @@
 
 | Дата документа | Имя файла | Тип | Что это, одной строкой | Врач / клиника / лаборатория | Ссылка на Drive | Выжимка |
 |---|---|---|---|---|---|---|
+| 10.10.2026 | `2026-10-10-zaklyuchenie-terapevt-orvi.pdf` | zaklyuchenie | Консультация терапевта: ОРВИ, остаточные явления; назначения, план обследования, повторный приём 14.10.2026 | Савин А. И., ЦНМТ | https://drive.google.com/file/d/1F0du1rm8W8QexNRhdVLs5at43iRR-0_g/view | context |
 | 02.10.2026 | `2026-10-02-zaklyuchenie-travmatolog-plecho.pdf` | zaklyuchenie | Консультация травматолога-ортопеда по травме левого плеча: диагноз, ограничения, лекарства, направление к физиотерапевту | Шкуратов О. В., ЦНМТ | https://drive.google.com/file/d/1Am_7FeMi-eOFJNuxyesM6BTVuMJX_PCz/view | context |
 | 26.09.2026 | `2026-09-26-snimok-rentgen-plecho.pdf` | snimok | Протокол рентгенографии левого плечевого сустава в 2 проекциях | Юрченко Ю. Б., ЦНМТ | https://drive.google.com/file/d/1ELOXQBInFrssQpaq2f5ikDRirrrqSuym/view | context |
 | 26.09.2026 | `2026-09-26-zaklyuchenie-travmatolog-plecho.pdf` | zaklyuchenie | Левое плечо: первый приём после травмы, бандаж, направление на МРТ, лекарства | Шкуратов О. В., ЦНМТ | https://drive.google.com/file/d/10pwKl7jk5CnAVKgd_hvktNJm_g2TK65j/view | context |
