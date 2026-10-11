@@ -1,4 +1,4 @@
-# LPF-регламент v2.14 — оглавление
+# LPF-регламент v2.15 — оглавление
 
 > Регламент разбит на части 29.08.2026 (гипотеза: `personal_get_document` усекает большие файлы до одного чанка индекса; части меньшего размера, сопоставимые с `docs/otnosheniya-pravila.md`, такого не показывали — см. `automation/agent-workflow-rules.md`, правило 4). Архивная цельная копия на момент разбиения: [docs/archive/lpf-reglament-v2.6-snapshot-2026-08-29.md](../archive/lpf-reglament-v2.6-snapshot-2026-08-29.md) — точка отката.
 >
