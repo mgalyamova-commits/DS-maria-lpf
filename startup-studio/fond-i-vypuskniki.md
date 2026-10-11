@@ -16,7 +16,7 @@
 - [2026-09-13-vypuskniki-sistema-fpf.md](2026-09-13-vypuskniki-sistema-fpf.md) — разбор системы «НГУ-выпускники» по FPF по тем же расшифровкам: holon, роли, противоречия, целевая архитектура.
 - [cpi-produkty-v1-kandidaty.md](cpi-produkty-v1-kandidaty.md) и [cpi-roli-kandidat.md](cpi-roli-kandidat.md) — продукты и роли ЦПИ, статус «кандидат/гипотеза». Прямо релевантны продукты №3 «Венчурный мост выпускника» и №4 «Deal Flow: витрина студенческих стартапов».
 
-Плюс портфельный материал, откуда взялась постановка задачи: [2026-09-06-perekis-spravka-sd.md](2026-09-06-perekis-spravka-sd.md), `himozin/spravka-v2-31-08-2026.md`, `tandem/pokupateli-doli.md`, `pack/startup-studio.md` (метод поиска ниши).
+Плюс портфельный материал, откуда взялась постановка задачи: [voronka-uss/perekis/2026-09-06-spravka-sd.md](../voronka-uss/perekis/2026-09-06-spravka-sd.md), `himozin/spravka-v2-31-08-2026.md`, `tandem/pokupateli-doli.md`, `pack/startup-studio.md` (метод поиска ниши).
 
 ### Четыре тезиса, вынесенные дословно
 
