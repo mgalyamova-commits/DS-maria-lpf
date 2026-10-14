@@ -27,9 +27,8 @@
 ## Файлы
 
 - Репо: этот файл; строки в `files.md`; строки в журнале слотов.
-- Drive (`LPF-files/startup-studio/`): `2026-10-14-pismo-uchenym-gpb-finteh-nauka-churkin` (Google Doc, версия агента; правленая версия Марии у неё), `2026-10-14-prezentatsiya-uchenym-gpb-finteh-nauka.pptx` (выгрузка колоды), `2026-10-14-gpb-finteh-nauka-proekty-ngu-ishodnik.pptx` (исходник шорт-листа).
+- Drive (`LPF-files/startup-studio/`): `2026-10-14-pismo-uchenym-gpb-finteh-nauka-churkin` (Google Doc, версия агента; правленая версия Марии у неё), `2026-10-14-prezentatsiya-uchenym-gpb-finteh-nauka.pptx` (выгрузка колоды), `2026-10-14-gpb-finteh-nauka-proekty-ngu-ishodnik.pptx` (исходник шорт-листа), `2026-10-13-zapis-186-sozvon-gpb-finteh-nauka.txt` (транскрипт созвона), `2026-10-12-gpb-akselerator-pravila-otbora-finteh-nauka.pdf` (Правила отбора). Все четыре файла Мария положила в `_vhod`, перенесены сюда.
 - claude.ai: Slides-артефакт https://claude.ai/artifact/29BFLGBc4EF29oaRYEB59e (приватный, пока Мария не поделилась).
-- Записи и Правила отбора (PDF) в репо и на Drive не сохранялись: остались вложениями чата.
 
 ## Не выяснено / не доделано
 
