@@ -4,7 +4,7 @@
 
 | Дата | Имя | Что это | Версия | Ссылка | РП слота |
 |---|---|---|---|---|---|
-| 2026-10-22 | 2026-10-22-helsko-hronologiya-raboty-s-papiyonom-v2 | Хронология работы с Папийоном 2023–2026: договор, итерации, акт, тишина после 15.05.2025, суд; обещания и факт; слабые места; чего нет в источниках | v2 | https://docs.google.com/document/d/1McJLWtHqdUPoW4c97M-KltDCrUFc7_rmgMZhn0UDD2k/edit | helsko-1022-ч1/1 |
+| 2026-10-22 | 2026-10-22-helsko-hronologiya-raboty-s-papiyonom-v2 | Хронология работы с Папийоном 2023–2026 общим списком; заменена v3 (по участникам), неудобна для ориентирования | v2 | https://docs.google.com/document/d/1McJLWtHqdUPoW4c97M-KltDCrUFc7_rmgMZhn0UDD2k/edit | helsko-1022-ч1/1 |
 | 2026-10-22 | 2026-10-22-helsko-scenarij-peregovorov-s-igorem-v2 | Сценарий встречи с Игорем 22.10, 10:00: шаги, что отдаём, возражения, красные линии, письмо-фиксация, чек-лист | v2 | https://docs.google.com/document/d/1cago3-mZwfCigDGhBwbiYzvGQ-zrKo9Ty53A0gxQaHg/edit | helsko-1022-ч1/2 |
 | 2026-10-22 | 2026-10-22-helsko-hronologiya-raboty-s-papiyonom | Первая версия хронологии (порядок строк 2025 нарушен); заменена v2, удалить может только Мария | v1 | https://docs.google.com/document/d/1epwLIRtGwRrsndTwK001r9lHOQseCpyPIA6d6PvIIsg/edit | helsko-1022-ч1/1 |
 | 2026-10-22 | 2026-10-22-helsko-scenarij-peregovorov-s-igorem | Первая версия сценария (были лишние строки про встречный иск и Григорьеву); заменена v2, удалить может только Мария | v1 | https://docs.google.com/document/d/1T1WQVqFUlYJBOyr8jD-VEn90IQ_nFCDDGsYR6J35tlw/edit | helsko-1022-ч1/2 |
